@@ -1,0 +1,228 @@
+{
+ "_doc": "Fichas técnicas del Laboratorio. 'unlock' = recurso que hay que recolectar; 'analysis' = se desbloquea al analizar muestras geológicas (orden). Composiciones: valores de muestras Apolo redondeados (dato real adaptado) o estequiometría (dato real).",
+ "sheets": [
+  {
+   "id": "regolith_highland",
+   "unlock": "regolith",
+   "rarity": 1,
+   "name_es": "Regolito de tierras altas",
+   "name_en": "Highland regolith",
+   "composition": [
+    [
+     "SiO₂",
+     45
+    ],
+    [
+     "Al₂O₃",
+     27
+    ],
+    [
+     "CaO",
+     16
+    ],
+    [
+     "MgO",
+     6
+    ],
+    [
+     "FeO",
+     5
+    ]
+   ],
+   "utility_es": "Materia prima para extraer oxígeno (≈ 40-45 % de su masa es oxígeno ligado a minerales), sinterizar ladrillos e impresión 3D, y rellenar sacos de blindaje.",
+   "utility_en": "Feedstock to extract oxygen (≈ 40-45 % of its mass is oxygen bound in minerals), to sinter bricks and 3D-print, and to fill shielding bags.",
+   "facts_es": "Polvo y fragmentos producidos por miles de millones de años de impactos de micrometeoritos. Sus granos son angulosos y abrasivos: dañan sellos y articulaciones del traje.",
+   "facts_en": "Dust and fragments produced by billions of years of micrometeorite impacts. Grains are sharp and abrasive: they damage seals and suit joints.",
+   "science": {
+    "kind": "adapted",
+    "source": "Heiken, Vaniman & French — Lunar Sourcebook (1991), suelos de Apolo 16 (valores redondeados)"
+   }
+  },
+  {
+   "id": "ilmenite",
+   "unlock": "iron",
+   "rarity": 2,
+   "name_es": "Ilmenita (FeTiO₃)",
+   "name_en": "Ilmenite (FeTiO₃)",
+   "composition": [
+    [
+     "TiO₂",
+     52.7
+    ],
+    [
+     "FeO",
+     47.3
+    ]
+   ],
+   "utility_es": "Al reducirla con hidrógeno a ~900 °C libera agua (y de ella oxígeno), dejando hierro metálico y dióxido de titanio: uno de los procesos ISRU más estudiados.",
+   "utility_en": "Reducing it with hydrogen at ~900 °C releases water (and from it oxygen), leaving metallic iron and titanium dioxide: one of the most studied ISRU processes.",
+   "facts_es": "Mineral negro y brillante, abundante en los basaltos de los mares lunares ricos en titanio (Apolo 11 y 17).",
+   "facts_en": "Black, shiny mineral, abundant in titanium-rich mare basalts (Apollo 11 and 17).",
+   "science": {
+    "kind": "real",
+    "source": "Estequiometría de FeTiO₃; Lunar Sourcebook (1991), cap. 5"
+   }
+  },
+  {
+   "id": "water_ice",
+   "unlock": "water_ice",
+   "rarity": 4,
+   "name_es": "Regolito con hielo de agua",
+   "name_en": "Ice-bearing regolith",
+   "composition": [
+    [
+     "Regolito",
+     94.4
+    ],
+    [
+     "H₂O",
+     5.6
+    ]
+   ],
+   "utility_es": "Agua para beber y regar, oxígeno para respirar e hidrógeno y oxígeno como propelente: el recurso más valioso de los polos.",
+   "utility_en": "Water to drink and irrigate, oxygen to breathe, and hydrogen and oxygen as propellant: the most valuable polar resource.",
+   "facts_es": "En 2009 la misión LCROSS impactó el cráter Cabeus y midió 5,6 ± 2,9 % de agua en masa en el material expulsado. Los cráteres en sombra permanente están por debajo de unos -170 °C.",
+   "facts_en": "In 2009 LCROSS impacted Cabeus crater and measured 5.6 ± 2.9 % water by mass in the ejected material. Permanently shadowed craters stay below about -170 °C.",
+   "science": {
+    "kind": "real",
+    "source": "Colaprete et al. (2010), Science 330 — LCROSS"
+   }
+  },
+  {
+   "id": "breccia",
+   "unlock": "geo_sample",
+   "rarity": 3,
+   "name_es": "Brecha de impacto",
+   "name_en": "Impact breccia",
+   "composition": [
+    [
+     "Plagioclasa",
+     60
+    ],
+    [
+     "Piroxeno",
+     20
+    ],
+    [
+     "Vidrio de impacto",
+     15
+    ],
+    [
+     "Olivino",
+     5
+    ]
+   ],
+   "utility_es": "Valor científico: sus fragmentos fechan los grandes impactos. Muchas brechas de Apolo dan edades de ~3.900 millones de años.",
+   "utility_en": "Scientific value: its fragments date the great impacts. Many Apollo breccias give ages of ~3.9 billion years.",
+   "facts_es": "Roca formada por trozos de otras rocas soldados por el calor de un impacto. Analizala en la estación para descubrir qué contiene.",
+   "facts_en": "Rock made of pieces of other rocks welded together by impact heat. Analyze it at the station to find out what it contains.",
+   "science": {
+    "kind": "adapted",
+    "source": "NASA — Lunar Sample Compendium (brechas de Apolo 14-17), proporciones aproximadas"
+   }
+  },
+  {
+   "id": "anorthosite",
+   "analysis": 1,
+   "rarity": 3,
+   "name_es": "Anortosita ferroana",
+   "name_en": "Ferroan anorthosite",
+   "composition": [
+    [
+     "Plagioclasa (anortita)",
+     95
+    ],
+    [
+     "Piroxeno",
+     4
+    ],
+    [
+     "Otros",
+     1
+    ]
+   ],
+   "utility_es": "Rica en aluminio y calcio: fuente futura de aluminio para estructuras. Es la corteza original de la Luna.",
+   "utility_en": "Rich in aluminium and calcium: a future aluminium source for structures. It is the Moon's original crust.",
+   "facts_es": "La «Roca Génesis» (muestra 15415, Apolo 15) es una anortosita de unos 4.000 millones de años: se formó al flotar cristales claros en un océano de magma.",
+   "facts_en": "The 'Genesis Rock' (sample 15415, Apollo 15) is an anorthosite about 4 billion years old: it formed as light crystals floated on a magma ocean.",
+   "science": {
+    "kind": "real",
+    "source": "NASA — Lunar Sample Compendium, muestra 15415"
+   }
+  },
+  {
+   "id": "mare_basalt",
+   "analysis": 2,
+   "rarity": 2,
+   "name_es": "Basalto de mar",
+   "name_en": "Mare basalt",
+   "composition": [
+    [
+     "SiO₂",
+     40
+    ],
+    [
+     "FeO",
+     19
+    ],
+    [
+     "TiO₂",
+     10
+    ],
+    [
+     "CaO",
+     11
+    ],
+    [
+     "Al₂O₃",
+     9
+    ],
+    [
+     "MgO",
+     8
+    ]
+   ],
+   "utility_es": "Lava solidificada rica en hierro y titanio: fuente de ilmenita y material para fibras de basalto.",
+   "utility_en": "Solidified lava rich in iron and titanium: an ilmenite source and material for basalt fibres.",
+   "facts_es": "Los mares oscuros que se ven desde la Tierra son coladas de basalto de 3.100 a 3.900 millones de años. Los de Apolo 11 tienen mucho titanio.",
+   "facts_en": "The dark maria seen from Earth are basalt flows 3.1 to 3.9 billion years old. Apollo 11 basalts are titanium-rich.",
+   "science": {
+    "kind": "adapted",
+    "source": "Lunar Sourcebook (1991), basaltos de alto Ti de Apolo 11 (valores redondeados)"
+   }
+  },
+  {
+   "id": "helium3_regolith",
+   "unlock": "helium_3",
+   "rarity": 4,
+   "name_es": "Regolito con helio-3",
+   "name_en": "Helium-3 bearing regolith",
+   "composition": [
+    [
+     "SiO₂",
+     42
+    ],
+    [
+     "FeO",
+     16
+    ],
+    [
+     "TiO₂",
+     8
+    ],
+    [
+     "³He (ppb)",
+     0.02
+    ]
+   ],
+   "utility_es": "El helio-3 podría ser combustible de reactores de fusión limpios: casi no existe en la Tierra y la Luna lo acumula por el viento solar. Hoy la fusión con helio-3 todavía no es posible.",
+   "utility_en": "Helium-3 could fuel clean fusion reactors: there is almost none on Earth, and the Moon collects it from the solar wind. Helium-3 fusion is not possible yet.",
+   "facts_es": "Se calienta el regolito a unos 600 °C para liberar los gases atrapados; hacen falta toneladas de suelo para obtener unos pocos gramos.",
+   "facts_en": "Regolith is heated to about 600 °C to release trapped gases; tons of soil are needed for a few grams.",
+   "science": {
+    "kind": "adapted",
+    "source": "Wittenberg, Santarius & Kulcinski (1986); muestras Apolo (concentración simbólica)"
+   }
+  }
+ ]
+}

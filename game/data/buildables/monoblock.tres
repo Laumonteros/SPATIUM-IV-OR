@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BuildableDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/data/buildable_def.gd" id="1_def"]
+[ext_resource type="Script" path="res://systems/colony/modules/monoblock.gd" id="2_mod"]
+
+[resource]
+script = ExtResource("1_def")
+role = 0
+cost = Dictionary[StringName, int]({})
+power_kw = -0.6
+storage_kwh = 1.0
+footprint_radius = 5.6
+build_time = 0.1
+priority = 10
+shield_factor = 0.15
+module_script = ExtResource("2_mod")
+sector = &"residential"
+function_key = "BUILD_MONOBLOCK_FUNCTION"
+id = &"monoblock"
+name_key = "BUILD_MONOBLOCK_NAME"
+description_key = "BUILD_MONOBLOCK_DESC"

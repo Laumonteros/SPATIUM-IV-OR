@@ -1,0 +1,48 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://worlds/moon/moon_region.gd" id="1_3e07i"]
+[ext_resource type="Environment" path="res://worlds/moon/moon_environment.tres" id="2_aucrb"]
+[ext_resource type="Script" path="res://worlds/common/environment_controller.gd" id="3_rxqjf"]
+[ext_resource type="Terrain3DMaterial" path="res://worlds/moon/moon_terrain_material.tres" id="4_2ufea"]
+[ext_resource type="Terrain3DAssets" path="res://worlds/moon/moon_terrain_assets.tres" id="5_ck2b6"]
+[ext_resource type="Script" path="res://systems/resources/resource_field.gd" id="6_field"]
+[ext_resource type="Script" path="res://systems/base/base_network.gd" id="7_base"]
+[ext_resource type="Resource" path="res://data/buildables/lander.tres" id="8_lander"]
+
+[node name="MoonRegion01" type="Node3D" unique_id=737604336 node_paths=PackedStringArray("terrain", "player_spawn")]
+script = ExtResource("1_3e07i")
+terrain = NodePath("Terrain3D")
+player_spawn = NodePath("PlayerSpawn")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=392095799]
+environment = ExtResource("2_aucrb")
+script = ExtResource("3_rxqjf")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=351754638 groups=["sun"]]
+transform = Transform3D(-0.25881907, -0.23367861, 0.9372337, 0, 0.9702957, 0.2419219, -0.9659258, 0.062614, -0.25113103, 0, 0, 0)
+light_color = Color(1, 0.98, 0.95, 1)
+light_energy = 2.4
+light_angular_distance = 0.53
+shadow_enabled = true
+shadow_bias = 0.03
+shadow_normal_bias = 1.2
+directional_shadow_blend_splits = true
+directional_shadow_max_distance = 350.0
+
+[node name="Terrain3D" type="Terrain3D" parent="." unique_id=859654827]
+data_directory = "res://worlds/moon/terrain_data"
+material = ExtResource("4_2ufea")
+assets = ExtResource("5_ck2b6")
+collision_mask = 0
+displacement_sharpness = 0.5
+
+[node name="PlayerSpawn" type="Marker3D" parent="." unique_id=501028894]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
+
+[node name="ResourceField" type="Node3D" parent="."]
+script = ExtResource("6_field")
+
+[node name="BaseNetwork" type="Node3D" parent="." node_paths=PackedStringArray("region")]
+script = ExtResource("7_base")
+lander_def = ExtResource("8_lander")
+region = NodePath("..")

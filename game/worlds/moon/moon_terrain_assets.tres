@@ -1,0 +1,47 @@
+[gd_resource type="Terrain3DAssets" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/terrain/moon_regolith_alb_h.png" id="1_bjy5p"]
+[ext_resource type="Texture2D" path="res://assets/textures/terrain/moon_regolith_nrm_r.png" id="2_eemm8"]
+[ext_resource type="Texture2D" path="res://assets/textures/terrain/moon_rocky_alb_h.png" id="3_e6ow0"]
+[ext_resource type="Texture2D" path="res://assets/textures/terrain/moon_rocky_nrm_r.png" id="4_vxetx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wmn2w"]
+transparency = 4
+cull_mode = 2
+vertex_color_use_as_albedo = true
+backlight_enabled = true
+backlight = Color(0.5, 0.5, 0.5, 1)
+distance_fade_mode = 1
+distance_fade_min_distance = 128.0
+distance_fade_max_distance = 96.0
+metadata/terrain3d_generated_material = true
+
+[sub_resource type="Terrain3DMeshAsset" id="Terrain3DMeshAsset_diibf"]
+generated_type = 1
+height_offset = 0.5
+density = 10.0
+material_override = SubResource("StandardMaterial3D_wmn2w")
+last_lod = 0
+last_shadow_lod = 0
+lod0_range = 128.0
+
+[sub_resource type="Terrain3DTextureAsset" id="Terrain3DTextureAsset_gi1uy"]
+name = "Regolito"
+albedo_texture = ExtResource("1_bjy5p")
+normal_texture = ExtResource("2_eemm8")
+uv_scale = 0.22
+detiling_rotation = 0.35
+detiling_shift = 0.25
+
+[sub_resource type="Terrain3DTextureAsset" id="Terrain3DTextureAsset_54ues"]
+name = "Roca y eyecta"
+id = 1
+albedo_texture = ExtResource("3_e6ow0")
+normal_texture = ExtResource("4_vxetx")
+uv_scale = 0.12
+detiling_rotation = 0.35
+detiling_shift = 0.25
+
+[resource]
+mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_diibf")])
+texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_gi1uy"), SubResource("Terrain3DTextureAsset_54ues")])

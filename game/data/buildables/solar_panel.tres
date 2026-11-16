@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="BuildableDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/data/buildable_def.gd" id="1_def"]
+[ext_resource type="PackedScene" path="res://assets/models/structures/solar_panel.glb" id="2_model"]
+
+[resource]
+script = ExtResource("1_def")
+role = 1
+model = ExtResource("2_model")
+cost = Dictionary[StringName, int]({&"iron": 6, &"regolith": 4})
+power_kw = 3.0
+storage_kwh = 0.0
+footprint_radius = 2.2
+build_time = 3.0
+priority = 0
+function_key = "BUILD_SOLAR_PANEL_FUNCTION"
+id = &"solar_panel"
+name_key = "BUILD_SOLAR_PANEL_NAME"
+description_key = "BUILD_SOLAR_PANEL_DESC"

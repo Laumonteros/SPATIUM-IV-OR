@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemDef" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://core/data/item_def.gd" id="1_item"]
+[ext_resource type="Script" path="res://core/data/science_source.gd" id="2_sci"]
+[ext_resource type="PackedScene" path="res://assets/models/environment/moon/deposit_iron.glb" id="3_model"]
+
+[sub_resource type="Resource" id="Resource_sci"]
+script = ExtResource("2_sci")
+kind = 1
+source_name = "Lunar Sourcebook (Heiken, Vaniman y French), LPI"
+url = "https://www.lpi.usra.edu/publications/books/lunar_sourcebook/"
+date = "1991"
+units = ""
+notes = "La ilmenita (FeTiO3) es abundante en algunos basaltos de los mares lunares; de ella pueden obtenerse hierro, titanio y oxígeno. La cantidad que entrega cada depósito es un valor de juego."
+
+[resource]
+script = ExtResource("1_item")
+category = 0
+max_stack = 999
+unit_mass_kg = 2.0
+utility_key = "ITEM_IRON_UTILITY"
+location_key = "ITEM_IRON_LOCATION"
+scientific_value = 30
+fabrication_value = 70
+world_scene = ExtResource("3_model")
+science = SubResource("Resource_sci")
+id = &"iron"
+name_key = "ITEM_IRON_NAME"
+description_key = "ITEM_IRON_DESC"

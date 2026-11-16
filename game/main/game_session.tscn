@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://main/game_session.gd" id="1_session"]
+[ext_resource type="PackedScene" path="res://worlds/moon/moon_region_01.tscn" id="2_region"]
+[ext_resource type="PackedScene" path="res://entities/player/player.tscn" id="3_player"]
+[ext_resource type="Script" path="res://ui/hud/hud.gd" id="4_hud"]
+[ext_resource type="Script" path="res://ui/menus/pause_menu.gd" id="5_pause"]
+[ext_resource type="Script" path="res://main/demo_director.gd" id="6_demo"]
+[ext_resource type="Script" path="res://systems/missions/mission_manager.gd" id="7_missions"]
+[ext_resource type="Script" path="res://ui/hud/mission_hud.gd" id="8_mhud"]
+[ext_resource type="Script" path="res://systems/radiation/radiation_system.gd" id="9_rad"]
+[ext_resource type="Script" path="res://ui/menus/encyclopedia.gd" id="10_enc"]
+[ext_resource type="Script" path="res://ui/hud/minimap.gd" id="11_map"]
+
+[node name="GameSession" type="Node"]
+script = ExtResource("1_session")
+region_scene = ExtResource("2_region")
+player_scene = ExtResource("3_player")
+
+[node name="MissionManager" type="Node" parent="."]
+script = ExtResource("7_missions")
+
+[node name="RadiationSystem" type="Node" parent="."]
+script = ExtResource("9_rad")
+
+[node name="MissionHud" type="CanvasLayer" parent="."]
+script = ExtResource("8_mhud")
+
+[node name="Hud" type="CanvasLayer" parent="."]
+script = ExtResource("4_hud")
+
+[node name="PauseMenu" type="CanvasLayer" parent="."]
+script = ExtResource("5_pause")
+
+[node name="DemoDirector" type="Node" parent="."]
+script = ExtResource("6_demo")
+
+[node name="Encyclopedia" type="CanvasLayer" parent="."]
+script = ExtResource("10_enc")
+
+[node name="Minimap" type="CanvasLayer" parent="."]
+script = ExtResource("11_map")

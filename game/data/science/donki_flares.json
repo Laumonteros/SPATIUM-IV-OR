@@ -1,0 +1,13 @@
+{
+	"dataset": "NASA CCMC DONKI — fulguraciones (FLR) archivadas",
+	"api": "https://api.nasa.gov/DONKI/FLR",
+	"kind": "REAL_DATA",
+	"note": "Datos ARCHIVADOS (no en vivo): fecha y clase de fulguraciones reales. En el juego, el tiempo hasta la llegada de protones de los eventos distintos al de mayo de 2024 usa los mismos 60 minutos (valor adaptado).",
+	"flares": [
+		{"id": "2024-05-11", "date": "2024-05-11", "class": "X5.8", "note_es": "Tormenta de mayo de 2024: una hora después llegaron protones de más de 100 MeV (GOES) y la tormenta geomagnética alcanzó Kp 9.", "note_en": "May 2024 storm: one hour later >100 MeV protons arrived (GOES) and the geomagnetic storm reached Kp 9."},
+		{"id": "2024-05-14", "date": "2024-05-14", "class": "X8.7", "note_es": "La fulguración más intensa de la serie de mayo de 2024, desde la región activa 3664.", "note_en": "The strongest flare of the May 2024 sequence, from active region 3664."},
+		{"id": "2024-10-03", "date": "2024-10-03", "class": "X9.0", "note_es": "Una de las fulguraciones más intensas del ciclo solar 25, registrada por el Solar Dynamics Observatory.", "note_en": "One of the strongest flares of solar cycle 25, recorded by the Solar Dynamics Observatory."},
+		{"id": "2017-09-06", "date": "2017-09-06", "class": "X9.3", "note_es": "La fulguración más intensa del ciclo solar 24.", "note_en": "The strongest flare of solar cycle 24."},
+		{"id": "2017-09-10", "date": "2017-09-10", "class": "X8.2", "note_es": "Produjo partículas tan energéticas que se detectaron hasta en el suelo terrestre (evento GLE).", "note_en": "It produced particles energetic enough to be detected at ground level on Earth (a GLE event)."}
+	]
+}

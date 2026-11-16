@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="BuildableDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/data/buildable_def.gd" id="1_def"]
+[ext_resource type="PackedScene" path="res://assets/models/structures/habitat.glb" id="2_model"]
+
+[resource]
+script = ExtResource("1_def")
+role = 0
+model = ExtResource("2_model")
+cost = Dictionary[StringName, int]({&"regolith": 15, &"iron": 9})
+power_kw = -1.5
+storage_kwh = 2.0
+footprint_radius = 3.6
+build_time = 4.0
+priority = 10
+function_key = "BUILD_HABITAT_FUNCTION"
+id = &"habitat"
+name_key = "BUILD_HABITAT_NAME"
+description_key = "BUILD_HABITAT_DESC"

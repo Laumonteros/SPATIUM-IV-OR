@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BuildableDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/data/buildable_def.gd" id="1_def"]
+[ext_resource type="Script" path="res://systems/colony/modules/workshop.gd" id="2_mod"]
+
+[resource]
+script = ExtResource("1_def")
+role = 7
+cost = Dictionary[StringName, int]({})
+power_kw = -2.5
+storage_kwh = 0.0
+footprint_radius = 8.6
+build_time = 0.1
+priority = 3
+shield_factor = 0.3
+module_script = ExtResource("2_mod")
+sector = &"workshop"
+function_key = "BUILD_WORKSHOP_FUNCTION"
+id = &"workshop"
+name_key = "BUILD_WORKSHOP_NAME"
+description_key = "BUILD_WORKSHOP_DESC"

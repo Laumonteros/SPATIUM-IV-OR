@@ -1,0 +1,418 @@
+keys,es,en
+GAME_TITLE,SPATIUM IV,SPATIUM IV
+INPUT_MOUSE_LEFT,Clic izquierdo,Left click
+INPUT_MOUSE_RIGHT,Clic derecho,Right click
+SCIENCE_KIND_REAL,Dato real,Real data
+SCIENCE_KIND_ADAPTED,Dato real adaptado,Adapted real data
+SCIENCE_KIND_GAMEPLAY,Valor de juego,Gameplay value
+SAVE_OK,Partida guardada,Game saved
+SAVE_FAILED,No se pudo guardar la partida,Could not save the game
+LOAD_OK,Partida cargada,Game loaded
+GRAPHICS_PRESET_LOW,Bajo,Low
+GRAPHICS_PRESET_MEDIUM,Medio,Medium
+GRAPHICS_PRESET_HIGH,Alto,High
+ACTION_USE,Usar,Use
+ACTION_COLLECT,Recolectar,Collect
+ACTION_SAMPLE,Tomar muestra de,Sample
+ITEM_REGOLITH_NAME,Regolito,Regolith
+ITEM_REGOLITH_DESC,"Capa de polvo y fragmentos de roca que cubre la Luna, formada durante miles de millones de años por impactos de meteoritos y micrometeoritos. Sus minerales guardan oxígeno químicamente ligado.","Layer of dust and rock fragments covering the Moon, formed over billions of years by meteorite and micrometeorite impacts. Its minerals hold chemically bound oxygen."
+ITEM_REGOLITH_UTILITY,Materia prima para construir (bloques sinterizados) y para extraer oxígeno.,Raw material for building (sintered blocks) and for extracting oxygen.
+ITEM_REGOLITH_LOCATION,En toda la superficie; los montículos de grano fino son los más fáciles de recoger.,Everywhere on the surface; fine-grained mounds are the easiest to collect.
+ITEM_IRON_NAME,Hierro (ilmenita),Iron (ilmenite)
+ITEM_IRON_DESC,"Roca basáltica oscura rica en ilmenita (FeTiO₃), un mineral que contiene hierro, titanio y oxígeno.","Dark basaltic rock rich in ilmenite (FeTiO₃), a mineral containing iron, titanium and oxygen."
+ITEM_IRON_UTILITY,"Estructuras, herramientas y piezas metálicas.","Structures, tools and metal parts."
+ITEM_IRON_LOCATION,Afloramientos de basalto oscuro en las llanuras.,Dark basalt outcrops on the plains.
+ITEM_WATER_ICE_NAME,Hielo de agua,Water ice
+ITEM_WATER_ICE_DESC,"Hielo mezclado con regolito, conservado en el fondo de cráteres donde la luz del Sol nunca llega y la temperatura es extremadamente baja.","Ice mixed with regolith, preserved on the floor of craters where sunlight never reaches and temperatures are extremely low."
+ITEM_WATER_ICE_UTILITY,"Agua para beber, para el invernadero y, separada por electrólisis, oxígeno e hidrógeno.",Water for drinking and the greenhouse; split by electrolysis into oxygen and hydrogen.
+ITEM_WATER_ICE_LOCATION,Zonas en sombra permanente dentro de cráteres profundos.,Permanently shadowed areas inside deep craters.
+ITEM_GEO_SAMPLE_NAME,Muestra geológica,Geological sample
+ITEM_GEO_SAMPLE_DESC,Brecha de impacto: fragmentos de distintas rocas soldados por el calor y la presión de un impacto. Cuenta la historia de los choques que formaron la superficie.,Impact breccia: fragments of different rocks welded together by the heat and pressure of an impact. It records the collisions that shaped the surface.
+ITEM_GEO_SAMPLE_UTILITY,Investigación científica en el laboratorio.,Scientific research in the laboratory.
+ITEM_GEO_SAMPLE_LOCATION,"Cerca de los bordes de cráteres recientes, entre los bloques de eyecta.","Near the rims of young craters, among ejecta blocks."
+HUD_CARGO,Carga,Cargo
+HUD_SCAN_RESULT,Escáner: %d señales detectadas,Scanner: %d signals detected
+HUD_SCAN_NONE,Escáner: sin señales en el área,Scanner: no signals in range
+HUD_SCAN_COOLDOWN,Escáner recargando…,Scanner recharging…
+HUD_INVENTORY_FULL,Carga máxima alcanzada,Cargo is full
+HUD_COLLECTED,+%d %s,+%d %s
+HUD_DEPLETED,Depósito agotado,Deposit depleted
+HUD_FLASHLIGHT_ON,Luces del casco encendidas,Helmet lights on
+PAUSE_TITLE,Pausa,Paused
+PAUSE_RESUME,Continuar,Resume
+PAUSE_SAVE,Guardar partida,Save game
+PAUSE_LOAD,Cargar partida,Load game
+PAUSE_OPTIONS,Opciones,Options
+PAUSE_QUIT,Salir del juego,Quit game
+PAUSE_BACK,Volver,Back
+OPT_GRAPHICS,Calidad gráfica,Graphics quality
+OPT_FULLSCREEN,Pantalla completa,Fullscreen
+OPT_VOLUME_MASTER,Volumen general,Master volume
+OPT_VOLUME_MUSIC,Música,Music
+OPT_VOLUME_SFX,Efectos,Effects
+OPT_MOUSE,Sensibilidad del mouse,Mouse sensitivity
+OPT_INVERT_Y,Invertir eje vertical,Invert vertical axis
+OPT_LANGUAGE,Idioma,Language
+LOAD_NONE,No hay partidas guardadas,No saved games
+SCIENCE_SOURCE,Fuente,Source
+CONTROLS_HINT,WASD mover · Shift correr · Espacio saltar · E usar · 1-3 herramientas · Clic usar herramienta · B construir · M mapa · F luces · Esc pausa,WASD move · Shift run · Space jump · E use · 1-3 tools · Click use tool · B build · M map · F lights · Esc pause
+ZONE_NORTH_MASSIF,Macizo del norte,Northern massif
+ZONE_WEST_MASSIF,Macizo del oeste,Western massif
+ACTION_LOAD_REGOLITH,Cargar regolito en,Load regolith into
+ACTION_LOAD_ICE,Cargar hielo en,Load ice into
+ACTION_INSPECT,Revisar,Inspect
+HUD_NEED_ITEM,Necesitás %s en la carga,You need %s in your cargo
+HUD_LOADED,%d × %s cargados en %s,%d × %s loaded into %s
+STATUS_BUILDING,en construcción,under construction
+STATUS_OPERATIONAL,operativa,operational
+STATUS_NO_POWER,SIN ENERGÍA,NO POWER
+STATUS_SOLAR_OK,generando %.1f kW,generating %.1f kW
+STATUS_SOLAR_SHADOW,en sombra: no genera energía (el relieve tapa el sol),in shadow: no power (terrain blocks the sun)
+STATUS_BATTERY,carga %.1f / %.1f kWh,charge %.1f / %.1f kWh
+STATUS_STOCK,operativa · material en cola: %d,operational · material queued: %d
+BUILD_MODE,MODO CONSTRUCCIÓN,BUILD MODE
+BUILD_HELP,1-5 elegir · X/R rotar · Clic o E colocar · Clic der. o B salir,1-5 select · X/R rotate · Click or E place · Right click or B exit
+BUILD_INVALID_TERRAIN,Fuera del terreno,Outside the terrain
+BUILD_INVALID_SLOPE,Pendiente demasiado empinada,Slope is too steep
+BUILD_INVALID_OVERLAP,Se superpone con otra estructura,Overlaps another structure
+BUILD_INVALID_OBSTACLE,Hay un obstáculo (roca o depósito),An obstacle is in the way
+BUILD_MISSING,Faltan materiales: %s,Missing materials: %s
+BUILD_COST,Costo,Cost
+BUILD_LANDER_NAME,Módulo de alunizaje Ariel,Ariel lander
+BUILD_LANDER_DESC,"Tu nave. Refugio inicial con reservas limitadas de oxígeno, agua y raciones, y paneles solares propios de 1 kW.","Your ship. Initial shelter with limited oxygen, water and rations, and its own 1 kW solar panels."
+BUILD_LANDER_FUNCTION,Refugio: recarga el traje,Shelter: recharges the suit
+BUILD_HABITAT_NAME,Hábitat,Habitat
+BUILD_HABITAT_DESC,Módulo presurizado para la tripulación. Los sacos de regolito alrededor ayudan a protegerse de la radiación.,Pressurized crew module. Regolith bags around it help shield against radiation.
+BUILD_HABITAT_FUNCTION,"Refugio grande: recarga el traje · consume 1,5 kW",Large shelter: recharges the suit · uses 1.5 kW
+BUILD_SOLAR_PANEL_NAME,Panel solar,Solar panel
+BUILD_SOLAR_PANEL_DESC,"Sigue al Sol en dos ejes. Sin atmósfera la luz llega sin atenuar, pero si el relieve lo tapa no produce nada.","Tracks the Sun on two axes. With no atmosphere, sunlight arrives unfiltered, but if terrain blocks it, it produces nothing."
+BUILD_SOLAR_PANEL_FUNCTION,Produce hasta 3 kW con sol directo,Produces up to 3 kW in direct sunlight
+BUILD_BATTERY_NAME,Banco de baterías,Battery bank
+BUILD_BATTERY_DESC,Guarda la energía sobrante para cuando falte el sol.,Stores surplus energy for when there is no sunlight.
+BUILD_BATTERY_FUNCTION,Almacena 10 kWh,Stores 10 kWh
+BUILD_OXYGEN_GENERATOR_NAME,Generador de oxígeno,Oxygen generator
+BUILD_OXYGEN_GENERATOR_DESC,Funde regolito y separa por electrólisis el oxígeno que está ligado en sus minerales.,Melts regolith and uses electrolysis to release the oxygen bound in its minerals.
+BUILD_OXYGEN_GENERATOR_FUNCTION,Regolito → oxígeno · consume 2 kW,Regolith → oxygen · uses 2 kW
+BUILD_WATER_EXTRACTOR_NAME,Extractor de agua,Water extractor
+BUILD_WATER_EXTRACTOR_DESC,"Calienta el hielo mezclado con regolito, evapora el agua y la condensa ya filtrada.","Heats ice mixed with regolith, evaporates the water and condenses it filtered."
+BUILD_WATER_EXTRACTOR_FUNCTION,"Hielo → agua · consume 1,2 kW",Ice → water · uses 1.2 kW
+VITAL_OXYGEN,O₂,O₂
+VITAL_ENERGY,Energía,Power
+VITAL_WATER,Agua,Water
+VITAL_FOOD,Alimento,Food
+VITAL_ALERT_LOW,%s bajo: volvé a un refugio,%s low: return to a shelter
+VITAL_ALERT_CRITICAL,¡%s CRÍTICO!,%s CRITICAL!
+HUD_SHELTERED,En refugio · recargando traje,In shelter · recharging suit
+HUD_RESCUED,Oxígeno agotado. Control de misión te guió de regreso al refugio. Perdiste la mitad de la carga.,Oxygen depleted. Mission Control guided you back to shelter. You lost half your cargo.
+BASE_TITLE,BASE,BASE
+BASE_POWER,Energía,Power
+BASE_STORED,Batería,Battery
+BASE_O2,O₂ reserva,O₂ reserve
+BASE_WATER,Agua reserva,Water reserve
+BASE_RATIONS,Raciones,Rations
+ACTION_ENTER,Subir al,Board
+VEHICLE_ROVER,rover Selene,Selene rover
+ACTION_ENTER_CABIN,Entrar al,Enter the
+ACTION_ANALYZE,Analizar muestra en,Analyze sample at
+ACTION_CALL_ELEVATOR,Llamar,Call
+ACTION_ELEVATOR,Subir/bajar,Ride
+ACTION_GRAB_CABLE,Agarrar,Grab
+ACTION_REST,Descansar en,Rest in
+ACTION_TALK,Hablar con,Talk to
+ACTION_TOGGLE_CARGO,Abrir/cerrar,Open/close
+ACTION_UNLOAD,Descargar,Unload
+ACTION_USE_TERMINAL,Usar,Use
+COLONY_AIRLOCK_STEPS,"ESCLUSA
+1. Cerrar la puerta exterior
+2. Esperar la presión (101 kPa)
+3. Quitar el polvo del traje
+4. Abrir la puerta interior","AIRLOCK
+1. Close the outer door
+2. Wait for pressure (101 kPa)
+3. Brush dust off the suit
+4. Open the inner door"
+COLONY_ANALYSIS_DATING,datos de datación del impacto,impact dating data
+COLONY_ANALYSIS_DONE,Análisis n.º %d completo: %s. +2 datos científicos.,Analysis #%d complete: %s. +2 science data.
+COLONY_ANALYSIS_STATION,estación de análisis geológico,geology analysis station
+COLONY_BATTERY_BANK,Banco de baterías,Battery bank
+COLONY_BED,la cama,the bed
+COLONY_BED_TAKEN,Es la cama de %s.,That is %s's bed.
+COLONY_BIODOME_NAME,Centro de Hidroponía,Hydroponics Center
+COLONY_CABLE,la abrazadera del cable,the cable clamp
+COLONY_CABLE_GRABBED,Llevás el cable: caminá para reubicarlo y pulsá E para soltarlo. No se desconecta.,Carrying the cable: walk to reroute it and press E to drop it. It stays connected.
+COLONY_CABLE_PANEL_A,Panel A → banco,Panel A → bank
+COLONY_CABLE_PANEL_B,Panel B → banco,Panel B → bank
+COLONY_CABLE_PLACED,Cable acomodado. El suministro nunca se cortó.,Cable placed. Power never stopped flowing.
+COLONY_CABLE_TRUNK,Troncal banco → residencial,Trunk bank → residential
+COLONY_CARGO_DOOR,el portón de carga,the cargo door
+COLONY_CMD_SAVE,Consola de guardado,Save console
+COLONY_CMD_STATUS,Estado de la colonia,Colony status
+COLONY_CMD_SUPPLIES,Pedidos a la Tierra,Earth supply orders
+COLONY_COMMAND_NAME,Centro de Comando,Command Center
+COLONY_COMPOSITION,Composición (% en masa),Composition (% by mass)
+COLONY_CROP_BED,el bancal %d,bed %d
+COLONY_DISTRIBUTION,Tablero de distribución residencial,Residential distribution board
+COLONY_ELEVATOR,el elevador,the elevator
+COLONY_FAB_BUSY,La impresora está ocupada con otro trabajo.,The printer is busy with another job.
+COLONY_FAB_COST,Costo: %s · Tiempo: %d s,Cost: %s · Time: %d s
+COLONY_FAB_DONE,Ya está instalada.,Already installed.
+COLONY_FAB_EQUIPMENT,EQUIPAMIENTO,EQUIPMENT
+COLONY_FAB_FINISHED,Taller: %s terminado.,Workshop: %s finished.
+COLONY_FAB_HELP,"Fabricá kits de módulos (se colocan con B sin gastar materiales), equipamiento y mejoras de la base.","Fabricate module kits (placed with B at no material cost), equipment and base upgrades."
+COLONY_FAB_KITS,KITS DE MÓDULOS,MODULE KITS
+COLONY_FAB_NEED_RESEARCH,Faltan datos científicos: hacen falta %d.,Not enough science data: %d needed.
+COLONY_FAB_NO_WORKSHOP,El taller no está disponible.,The workshop is unavailable.
+COLONY_FAB_SOURCE,tiempos y costos de fabricación equilibrados para el juego,fabrication times and costs balanced for play
+COLONY_FAB_START,Fabricar,Fabricate
+COLONY_FAB_STARTED,Taller: fabricando %s.,Workshop: fabricating %s.
+COLONY_FAB_TERMINAL,Terminal de fabricación,Fabrication terminal
+COLONY_FAB_UPGRADES,MEJORAS DE LA BASE,BASE UPGRADES
+COLONY_FACTS,Datos,Facts
+COLONY_LAB_NAME,Laboratorio Geológico,Geology Laboratory
+COLONY_NEED_SAMPLE,Necesitás una muestra geológica en el inventario.,You need a geological sample in your inventory.
+COLONY_OBSERVATORY,Observatorio %d,Observatory %d
+COLONY_OBS_DEEPSKY,cielo profundo,deep sky
+COLONY_OBS_PLANETARY,planetario,planetary
+COLONY_RARITY,Rareza:,Rarity:
+COLONY_RESEARCH_UNITS,%d datos científicos,%d science data
+COLONY_RESERVE,Reserva (sin asignar),Reserve (unassigned)
+COLONY_ROCKS_EMPTY,Todavía no hay fichas. Recolectá rocas y muestras en el exterior: cada tipo nuevo desbloquea su ficha.,No sheets yet. Collect rocks and samples outside: each new type unlocks its sheet.
+COLONY_ROCKS_HELP,Cada tipo de roca recolectado desbloquea su ficha (+1 dato). Analizar muestras revela rocas nuevas.,Each rock type you collect unlocks its sheet (+1 data). Analyzing samples reveals new rocks.
+COLONY_ROCK_SHEETS,Fichas de rocas,Rock sheets
+COLONY_SAVED,Partida guardada en el Centro de Comando.,Game saved at the Command Center.
+COLONY_SAVE_FAILED,No se pudo guardar la partida.,The game could not be saved.
+COLONY_SAVE_HELP,Guardá la partida en la ranura del Comando. El autoguardado sigue activo.,Save your game to the Command slot. Autosave stays active.
+COLONY_SAVE_NOW,Guardar partida,Save game
+COLONY_SECTOR_COMMAND,Comando y Refugio,Command & Shelter
+COLONY_SECTOR_ENERGY,Energía,Energy
+COLONY_SECTOR_HYDRO,Hidroponía,Hydroponics
+COLONY_SECTOR_OTHER,Otras instalaciones,Other facilities
+COLONY_SECTOR_RESEARCH,Investigación,Research
+COLONY_SECTOR_RESIDENTIAL,Residencial,Residential
+COLONY_SECTOR_WORKSHOP,Taller,Workshop
+COLONY_SHEET_UNLOCKED,Nueva ficha en el Laboratorio: %s (+1 dato científico).,New sheet at the Laboratory: %s (+1 science data).
+COLONY_STORAGE_HELP,"Las cosechas entran solas. Si el almacén se llena, el excedente va directo a la base: la producción nunca se frena.","Harvests come in automatically. If storage fills up, surplus goes straight to the base: production never stops."
+COLONY_STORAGE_NAME,Almacén refrigerado,Cold storage
+COLONY_STORAGE_SHORT,almacén,storage
+COLONY_STORAGE_STATE,"En el almacén: %d / %d raciones
+Cosechado en total: %d
+Reservas de la base: %d raciones","In storage: %d / %d rations
+Total harvested: %d
+Base reserves: %d rations"
+COLONY_STORAGE_TAKE5,Enviar 5 a la base,Send 5 to base
+COLONY_STORAGE_TAKEALL,Enviar todo,Send all
+COLONY_SUPPLY_BUSY,Ya hay un pedido en curso o una cápsula sin descargar.,There is already an order in progress or a capsule to unload.
+COLONY_SUPPLY_CAPSULE,la cápsula de suministros,the supply capsule
+COLONY_SUPPLY_COST,Costo: %d datos científicos · Llega en %d s,Cost: %d science data · Arrives in %d s
+COLONY_SUPPLY_HELP,La Tierra envía carga a cambio del retorno científico de la misión.,Earth sends cargo in exchange for the mission's science return.
+COLONY_SUPPLY_LANDED,¡La cápsula de suministros alunizó en la plataforma del Comando!,The supply capsule has landed on the Command pad!
+COLONY_SUPPLY_ORDER,Pedir,Order
+COLONY_SUPPLY_ORDERED,Pedido confirmado: %s. Alunizaje en %d s.,Order confirmed: %s. Landing in %d s.
+COLONY_SUPPLY_PAD,SUMINISTROS,SUPPLIES
+COLONY_SUPPLY_UNLOADED,Suministros descargados: %s.,Supplies unloaded: %s.
+COLONY_TELESCOPE_HELP,"Elegí un objetivo y mantenelo dentro de la retícula corrigiendo la deriva con WASD, las flechas o arrastrando con el mouse.","Pick a target and keep it inside the reticle, correcting drift with WASD, the arrows or by dragging the mouse."
+COLONY_TELESCOPE_PICK,Elegí un objetivo de la lista.,Pick a target from the list.
+COLONY_TERMINAL_STATUS,Estado de la colonia,Colony status
+COLONY_TRACK_FAIL,Se perdió el seguimiento. Volvé a intentarlo.,Tracking lost. Try again.
+COLONY_TRACK_HOLD,mantener,hold
+COLONY_TRACK_OK,¡Observación registrada! El telescopio quedó apuntando al objetivo.,Observation recorded! The telescope is now pointing at the target.
+COLONY_TRACK_RUNNING,Calibrando…,Calibrating…
+COLONY_TRACK_START,Calibrar y seguir,Calibrate and track
+COLONY_TRACK_STATUS,Centrado %.1f / %.1f s · Tiempo %d s,Centered %.1f / %.1f s · Time %d s
+COLONY_UTILITY,Utilidad,Utility
+COLONY_WORKSHOP_NAME,Taller de Fabricación,Fabrication Workshop
+COLONY_YOU,Vos,You
+CREW_ACT_BATTERY,revisando el banco de baterías,checking the battery bank
+CREW_ACT_BED_1,cuidando el bancal 1 del domo,tending dome bed 1
+CREW_ACT_BED_6,cuidando el bancal 6 del domo,tending dome bed 6
+CREW_ACT_HOME,en su monoblock,in their monoblock
+CREW_ACT_PATROL,patrullando los cruces,patrolling the crossings
+CREW_ACT_STORAGE,ordenando el almacén refrigerado,organizing the cold storage
+CREW_ACT_WORKSHOP,trabajando en el taller,working in the workshop
+CROP_DRY,sin agua,no water
+CROP_HEALTHY,sana,healthy
+CROP_REPORT,Bancal %d · %s · %s (%.0f %%) · %s · cosecha en %.1f h de juego,Bed %d · %s · %s (%.0f %%) · %s · harvest in %.1f game h
+CROP_STAGE_FLOWERING,floración,flowering
+CROP_STAGE_RIPE,madura,ripe
+CROP_STAGE_SEEDLING,plántula,seedling
+CROP_STAGE_VEGETATIVE,crecimiento,growing
+UI_CLOSE,Cerrar,Close
+BUILD_MONOBLOCK_NAME,Monoblock habitacional,Living monoblock
+BUILD_MONOBLOCK_DESC,"Vivienda individual presurizada con esclusa, dormitorio, cocina y escritorio.","Pressurized single living unit with airlock, bedroom, galley and desk."
+BUILD_MONOBLOCK_FUNCTION,"Descanso, comida, recarga del traje y guardado.","Rest, food, suit recharge and saving."
+BUILD_BIODOME_NAME,Centro de Hidroponía,Hydroponics Center
+BUILD_BIODOME_DESC,Gran cúpula geodésica con seis bancales y almacén refrigerado.,Large geodesic dome with six beds and cold storage.
+BUILD_BIODOME_FUNCTION,Produce alimento continuamente con energía y agua.,Produces food continuously with power and water.
+BUILD_RESEARCH_LAB_NAME,Laboratorio Geológico,Geology Laboratory
+BUILD_RESEARCH_LAB_DESC,"Análisis de muestras, fichas de rocas y dos observatorios.","Sample analysis, rock sheets and two observatories."
+BUILD_RESEARCH_LAB_FUNCTION,Genera datos científicos.,Produces science data.
+BUILD_WORKSHOP_NAME,Taller de Fabricación,Fabrication Workshop
+BUILD_WORKSHOP_DESC,"Impresora 3D de regolito, brazo robótico y bancos de trabajo.","Regolith 3D printer, robotic arm and workbenches."
+BUILD_WORKSHOP_FUNCTION,"Fabrica kits de módulos, equipamiento y mejoras.","Fabricates module kits, equipment and upgrades."
+BUILD_BATTERY_BANK_NAME,Banco de baterías,Battery bank
+BUILD_BATTERY_BANK_DESC,Seis gabinetes de ion-litio con transformador.,Six lithium-ion cabinets with a transformer.
+BUILD_BATTERY_BANK_FUNCTION,Almacena 20 kWh para toda la colonia.,Stores 20 kWh for the whole colony.
+BUILD_COMMAND_CENTER_NAME,Centro de Comando,Command Center
+BUILD_COMMAND_CENTER_DESC,"Cabina del cohete de llegada, rodeada de tanques de agua: el refugio más protegido.","Cabin of the arrival rocket, surrounded by water tanks: the best-protected shelter."
+BUILD_COMMAND_CENTER_FUNCTION,"Refugio, guardado, pedidos a la Tierra y estado de la colonia.","Shelter, saving, Earth orders and colony status."
+HUD_KIT_AVAILABLE,kit del Taller disponible (sin costo),Workshop kit available (free)
+TOOL_HAND,Mano · agarrar y usar,Hand · grab and use
+TOOL_SCANNER,Escáner · buscar recursos,Scanner · find resources
+TOOL_BINOCULARS,Binoculares · mantené el clic para mirar lejos,Binoculars · hold click to look far
+BUILD_SPATIUM_HABITAT_NAME,Hábitat Spatium,Spatium Habitat
+BUILD_SPATIUM_HABITAT_DESC,"Tu casa en la Luna: módulo central con techo de vidrio, invernadero y soporte vital unidos por túneles.","Your home on the Moon: a central module with a glass roof, a greenhouse and life support linked by tunnels."
+BUILD_SPATIUM_HABITAT_FUNCTION,"Descanso, comida, huerta propia, recarga del traje y guardado.","Rest, food, your own garden, suit recharge and saving."
+COLONY_HABITAT_NAME,Hábitat Spatium,Spatium Habitat
+COLONY_GARDEN,la huerta,the garden
+COLONY_GARDEN_GROWING,La huerta todavía está creciendo (%d %%). ¡Volvé más tarde!,The garden is still growing (%d %%). Come back later!
+COLONY_GARDEN_HARVESTED,¡Cosechaste la huerta! +%d raciones para la base.,You harvested the garden! +%d rations for the base.
+COLONY_LIFE_SUPPORT,el soporte vital,life support
+ACTION_HARVEST,Cosechar,Harvest
+ONB_LINE_1,"Control de misión: hábitat Spatium, telemetría confirmada. Bienvenida a la base Albor, en la Luna.","Mission Control: Spatium habitat, telemetry confirmed. Welcome to Albor base, on the Moon."
+ONB_LINE_2,"La colonia está en marcha. Inés y Tomás están en sus puestos, y tu rover está estacionado afuera.","The colony is up and running. Inés and Tomás are at their posts, and your rover is parked outside."
+ONB_LINE_3,"Tu traje tiene oxígeno por un tiempo limitado afuera. Volvé a cualquier módulo para recargarlo. Buena suerte.","Your suit holds oxygen for a limited time outside. Get back to any module to recharge. Good luck, explorer."
+EARTH_INFO_TITLE,La Tierra,Earth
+EARTH_INFO_SUB,OBJETIVO FIJADO · BINOCULARES,TARGET LOCKED · BINOCULARS
+EARTH_INFO_DISTANCE,Distancia media,Mean distance
+EARTH_INFO_DIAMETER,Diámetro,Diameter
+EARTH_INFO_LIGHT,Retardo de la luz (radio),Light (radio) delay
+EARTH_INFO_DAY,Día sideral,Sidereal day
+EARTH_INFO_GRAVITY,Gravedad,Gravity
+EARTH_INFO_PHASE,Fase iluminada (ahora),Lit phase (now)
+EARTH_INFO_NOTE,"Desde la Luna mide ~1,9°: casi 4 veces la Luna llena vista desde la Tierra.","From the Moon it spans ~1.9°: almost 4 times the full Moon seen from Earth."
+MENU_NEW_GAME,Empezar nueva partida,Start new game
+MENU_CONTINUE,Continuar,Continue
+MENU_SETTINGS,Configuración,Settings
+MENU_QUIT,Salir,Quit
+PAUSE_EXIT,Salir,Exit
+PAUSE_EXIT_TITLE,¿Salir de la partida?,Leave the game?
+PAUSE_SAVE_AND_MENU,Guardar y volver al menú principal,Save and return to main menu
+PAUSE_MENU_NO_SAVE,Volver al menú sin guardar,Return to menu without saving
+PAUSE_QUIT_DESKTOP,Cerrar el juego,Close the game
+PAUSE_CANCEL,Cancelar,Cancel
+OPT_EVALUATOR,Modo evaluador,Evaluator mode
+OPT_EVALUATOR_HINT,"Próxima partida nueva: materiales extra y menor consumo de oxígeno, para recorrer todo en pocos minutos.","Next new game: extra materials and lower oxygen use, to try everything in a few minutes."
+OPT_CONTROLS,Teclado y mouse,Keyboard & mouse
+ROCK_INFO_SUB,ROCA ANALIZADA · BINOCULARES,ROCK ANALYZED · BINOCULARS
+ROCK_INFO_GIVES,Da,Yields
+ROCK_INFO_COMPOSITION,Composición,Composition
+ROCK_INFO_DISTANCE,Distancia,Distance
+ROCK_INFO_LEFT,Extracciones × unidades,Harvests × units
+ROCK_INFO_RARITY,Rareza,Rarity
+ROCK_INFO_SCANNED,Escaneada,Scanned
+COMMON_YES,Sí,Yes
+COMMON_NO,No,No
+HUD_SCAN_SUMMARY,Escaneo: %s,Scan: %s
+MAP_HOME,Hábitats,Habitats
+MAP_DOME,Hidroponía,Hydroponics
+MAP_LAB,Laboratorio,Laboratory
+MAP_WORKSHOP,Taller,Workshop
+MAP_ENERGY,Baterías,Batteries
+MAP_SOLAR,Paneles solares,Solar panels
+MAP_COMMAND,Comando y naves,Command and ships
+MAP_LIFE,Soporte vital,Life support
+MAP_CREW,Tripulación y bot,Crew and bot
+MAP_ROVER,Rover,Rover
+MAP_POI,Puntos de interés,Points of interest
+INV_TITLE,INVENTARIO DEL TRAJE,SUIT INVENTORY
+INV_MASS_HINT,"El traje carga hasta 120 kg: cada kilo de más de una cosa es un kilo menos de otra.","The suit carries up to 120 kg: every extra kilo of one thing is a kilo less of another."
+INV_USE,Para qué sirve:,What it's for:
+INV_WHERE,Dónde se encuentra:,Where to find it:
+INV_COLONY,RESERVAS DE LA COLONIA,COLONY RESERVES
+INV_O2,Oxígeno,Oxygen
+INV_WATER,Agua,Water
+INV_POWER,Energía en baterías,Battery energy
+INV_RATIONS,Raciones: %d,Rations: %d
+INV_RESEARCH,Datos científicos: %d,Science data: %d
+INV_KITS,Kits de construcción,Building kits
+INV_TIP,"Consejo: el regolito da oxígeno en la planta, el hielo da agua y los datos científicos pagan pedidos a la Tierra.","Tip: regolith gives oxygen at the plant, ice gives water, and science data pays for orders from Earth."
+INV_CLOSE,Tab o Esc para cerrar,Tab or Esc to close
+SCI_KIND_REAL,Dato real,Real data
+SCI_KIND_ADAPTED,Dato real adaptado,Adapted real data
+SCI_KIND_GAME,Valor de juego,Game value
+RADIO_FROM,CONTROL DE MISIÓN · RADIO,MISSION CONTROL · RADIO
+DECISION_HEADER,DECISIÓN DE MISIÓN · NINGUNA OPCIÓN ES GRATIS,MISSION DECISION · NO OPTION IS FREE
+SCI_ARCHIVED,dato archivado,archived data
+EV_FLARE_TITLE,Fulguración solar clase %s,Class %s solar flare
+EV_FLARE_BODY,"Los protones viajan casi a la velocidad de la luz y en la Luna no hay atmósfera ni campo magnético que los frenen. Tenés menos de una hora (de juego) para prepararte.","Protons travel at nearly the speed of light, and the Moon has no atmosphere or magnetic field to stop them. You have less than an hour (game time) to get ready."
+EV_FLARE_A,Reforzar el blindaje de los refugios,Reinforce the shelters' shielding
+EV_FLARE_A_GAIN,Dentro de un refugio recibís la mitad de la dosis.,Inside a shelter you get half the dose.
+EV_FLARE_A_COST,Gasta %.0f kWh de las baterías ahora (menos energía esta noche).,Uses %.0f kWh of battery now (less power tonight).
+EV_FLARE_B,Ahorrar energía,Save power
+EV_FLARE_B_GAIN,Las baterías quedan intactas para el soporte vital.,Batteries stay full for life support.
+EV_FLARE_B_COST,El blindaje normal deja pasar más radiación.,Normal shielding lets more radiation through.
+EV_DUST_NOTE,Polvo en paneles solares: rinden 45 % menos hasta limpiarlos (acercate y usá E).,Dust on solar panels: 45 % less power until cleaned (walk up and press E).
+EV_DUST_POINT,panel solar con polvo,dusty solar panel
+ACTION_CLEAN,Limpiar,Clean
+ACTION_REPAIR,Reparar,Repair
+EV_LEAK_TITLE,Perforación en %s,Hull breach in %s
+EV_LEAK_BODY,"Un micrometeorito (un grano más chico que una arveja, pero a decenas de km por segundo) perforó el casco. El aire se escapa de las reservas de la colonia.","A micrometeoroid (a grain smaller than a pea, but moving at tens of km per second) punctured the hull. Air is leaking from the colony's reserves."
+EV_LEAK_A,Parche rápido con el bot RX-1,Quick patch with the RX-1 bot
+EV_LEAK_A_GAIN,La fuga se cierra ya.,The leak stops now.
+EV_LEAK_A_COST,Usa 2 hierro de tu traje.,Uses 2 iron from your suit.
+EV_LEAK_B,Ir a repararlo en persona,Go repair it yourself
+EV_LEAK_B_GAIN,Solo gasta 1 hierro.,Only uses 1 iron.
+EV_LEAK_B_COST,Hasta que llegues se pierden %.1f kg de O₂ por minuto.,Until you get there you lose %.1f kg of O₂ per minute.
+EV_LEAK_SOURCE,"Real: la Estación Espacial Internacional tiene blindajes tipo Whipple contra micrometeoritos. Pérdida de aire y costos: valores de juego.","Real: the International Space Station uses Whipple shields against micrometeoroids. Air loss and costs: game values."
+EV_LEAK_POINT,perforación del casco,hull breach
+EV_LEAK_NEED_IRON,Necesitás 1 hierro (ilmenita) para el parche.,You need 1 iron (ilmenite) for the patch.
+EV_COMMS_DOWN,Sin comunicación con la Tierra (antena en realineación).,No link with Earth (antenna realigning).
+EV_SCIENCE_NOTE,"Pedido de la Tierra: traé una muestra geológica (+6 datos científicos).","Request from Earth: collect a geological sample (+6 science data)."
+RAD_DEBRIEF_OK,Buen trabajo: te protegiste a tiempo.,Well done: you took shelter in time.
+RAD_DEBRIEF_BAD,Te expusiste demasiado: en una misión real el equipo médico evaluaría tu salud.,You were overexposed: in a real mission the medical team would assess your health.
+RAD_DEBRIEF_GENERIC,"Pasó la tormenta. Dosis durante el evento: %.2f mSv (simulada). %s\nBasado en una fulguración real clase %s del %s (NASA DONKI, dato archivado): %s","The storm has passed. Dose during the event: %.2f mSv (simulated). %s\nBased on a real class %s flare on %s (NASA DONKI, archived data): %s"
+ACTION_PLANT,Plantar en,Plant in
+ACTION_HARVEST,Cosechar,Harvest
+CROP_READY,"Bancal %d: %s listo para cosechar (andá al domo y usá E).","Bed %d: %s ready to harvest (go to the dome and press E)."
+CROP_HARVESTED,+%d raciones de %s,+%d rations of %s
+CROP_PLANT_TITLE,¿Qué plantamos en el bancal %d?,What do we plant in bed %d?
+CROP_PLANT_BODY,"Cada cultivo tarda distinto, usa agua de la reserva de la colonia y da distintas raciones. Si falta agua o energía, deja de crecer. Rápido o abundante: vos elegís.","Each crop takes a different time, uses water from the colony reserve and yields different rations. Without water or power it stops growing. Fast or plentiful: your call."
+CROP_OPT_GAIN,%d raciones por cosecha,%d rations per harvest
+CROP_OPT_COST,"%.0f min · %.1f L de agua","%.0f min · %.1f L of water"
+CROP_PLANT_SOURCE,"Referencias reales: NASA Veggie, VEG-05, Plant Habitat-02, cámaras de cultivo de Kennedy. Tiempos comprimidos (valor de juego).","Real references: NASA Veggie, VEG-05, Plant Habitat-02, Kennedy growth chambers. Compressed times (game value)."
+POWER_TITLE,Reparto de energía,Power budget
+POWER_HELP,"No alcanza para todo: decidí qué sistemas reciben energía. Lo que apagás deja de consumir, pero también deja de funcionar.","There is not enough for everything: decide which systems get power. What you switch off stops using power, but also stops working."
+POWER_PROD,Producción: %.1f kW,Production: %.1f kW
+POWER_USE,Consumo: %.1f kW,Use: %.1f kW
+POWER_CHARGING,Sobran %.1f kW: las baterías se cargan.,Surplus of %.1f kW: batteries are charging.
+POWER_DRAINING,"Faltan %.1f kW: las baterías alcanzan para %.1f h de juego.","Short by %.1f kW: batteries last %.1f game hours."
+POWER_LIFE,Soporte vital y hábitats,Life support and habitats
+POWER_LIFE_EFFECT,"Oxígeno, agua y refugios. Al 50 %: producen la mitad. Nunca se apaga del todo.","Oxygen, water and shelters. At 50 %: half production. It can never be fully off."
+POWER_FOOD,Hidroponía,Hydroponics
+POWER_FOOD_EFFECT,"Luces de cultivo y riego. Al 50 %: las plantas crecen a la mitad de velocidad. Apagado: no crecen.","Grow lights and irrigation. At 50 %: plants grow at half speed. Off: they stop growing."
+POWER_SCIENCE,Ciencia y taller,Science and workshop
+POWER_SCIENCE_EFFECT,"Laboratorio e impresora 3D. Al 50 %: fabricación y análisis más lentos. Apagado: se detienen.","Laboratory and 3D printer. At 50 %: slower fabrication and analysis. Off: they stop."
+POWER_COMMS,Comunicaciones,Communications
+POWER_COMMS_EFFECT,"Antena y centro de comando. Al 50 %: los pedidos a la Tierra tardan el doble. Apagado: no se puede pedir nada.","Antenna and command center. At 50 %: orders from Earth take twice as long. Off: nothing can be ordered."
+POWER_FULL,100 %,100 %
+POWER_HALF,50 %,50 %
+POWER_OFF,Apagado,Off
+POWER_COMMS_OFF,Comunicaciones apagadas en el reparto de energía.,Communications switched off in the power budget.
+POWER_SOURCE,"Real: en la Estación Espacial, cuando falta energía los controladores apagan equipos no esenciales para proteger el soporte vital (load shedding). Consumos: valores de juego.","Real: on the Space Station, when power is short, controllers switch off non-essential equipment to protect life support (load shedding). Power figures: game values."
+ITEM_HELIUM_3_NAME,Helio-3,Helium-3
+ITEM_HELIUM_3_DESC,"Isótopo raro traído por el viento solar y atrapado en el regolito.","Rare isotope brought by the solar wind and trapped in the regolith."
+ITEM_HELIUM_3_UTILITY,"Combustible potencial para la fusión del futuro (celda experimental en el Taller).","Potential fuel for future fusion (experimental cell in the Workshop)."
+ITEM_HELIUM_3_LOCATION,"Regolito muy antiguo de las llanuras, lejos de la colonia: escaso; se marca con una estrella dorada.","Very old plains regolith, far from the colony: scarce; marked with a golden star."
+FAB_ENERGY,Energía experimental,Experimental energy
+FAB_PROPELLANT,Propelente para el regreso,Return propellant
+ROCKET_TITLE,MÓDULO ARIEL · NAVE DE REGRESO,ARIEL MODULE · RETURN VEHICLE
+ROCKET_STATUS,"Tanques de propelente: %d / %d (se fabrican en el Taller con hielo).","Propellant tanks: %d / %d (made in the Workshop from ice)."
+ROCKET_LAUNCH,Despegar hacia la Tierra,Lift off to Earth
+ROCKET_FULL,Los tanques del Ariel ya están llenos.,Ariel's tanks are already full.
+RETURN_TITLE,MISIÓN CUMPLIDA,MISSION ACCOMPLISHED
+RETURN_TIME,Tiempo en la Luna: %.0f min,Time on the Moon: %.0f min
+RETURN_DOSE,Dosis de radiación total: %.2f mSv (simulada),Total radiation dose: %.2f mSv (simulated)
+RETURN_RESEARCH,Datos científicos: %d,Science data: %d
+RETURN_FOOD,Raciones cosechadas: %d,Rations harvested: %d
+RETURN_ACH,Logros: %d,Achievements: %d
+RETURN_NOTE,"Cada decisión que tomaste —energía, oxígeno, blindaje, comida— es la misma que analizan cada día los planificadores de misiones de NASA.","Every decision you made —power, oxygen, shielding, food— is the same kind NASA mission planners weigh every day."
+RETURN_STAY,Seguir explorando la Luna,Keep exploring the Moon
+RETURN_MENU,Menú principal,Main menu
+EV_FORECAST_NOTE,"Preaviso solar: en menos de un minuto puede estallar una fulguración. Preparate.","Solar forecast: a flare may erupt in less than a minute. Get ready."
+TUT_HEADER,PARTIDA NUEVA,NEW GAME
+TUT_ASK_TITLE,¿Querés hacer el tutorial?,Do you want to play the tutorial?
+TUT_ASK_BODY,"El tutorial te enseña paso a paso a moverte, escanear, recolectar, usar el inventario, observar con binoculares, repartir la energía y cultivar.","The tutorial teaches you step by step how to move, scan, collect, use the inventory, observe with binoculars, budget power and grow food."
+TUT_YES,Sí, con tutorial,"Yes, with tutorial"
+TUT_YES_GAIN,Recomendado si es tu primera vez.,Recommended for your first time.
+TUT_NO,No, ir directo a la misión,"No, go straight to the mission"
+TUT_NO_GAIN,Empezás con la Misión 1.,You start with Mission 1.

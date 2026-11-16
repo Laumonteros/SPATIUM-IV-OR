@@ -1,0 +1,53 @@
+[gd_resource type="Environment" format=3]
+
+[ext_resource type="Shader" path="res://worlds/common/sky/space_sky.gdshader" id="1_0i47b"]
+[ext_resource type="Texture2D" path="res://assets/textures/sky/earth_clouds_2k.jpg" id="2_i2igh"]
+[ext_resource type="Texture2D" path="res://assets/textures/sky/earth_daymap_2k.jpg" id="3_ybnj5"]
+[ext_resource type="Texture2D" path="res://assets/textures/sky/nasa_starmap_2020_4k.png" id="4_lc1w2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1gtwm"]
+shader = ExtResource("1_0i47b")
+shader_parameter/star_map = ExtResource("4_lc1w2")
+shader_parameter/star_brightness = null
+shader_parameter/star_contrast = null
+shader_parameter/star_rotation = Vector3(0.4, 0, 0.25)
+shader_parameter/sun_angular_radius = null
+shader_parameter/sun_disk_intensity = null
+shader_parameter/sun_glow_intensity = null
+shader_parameter/planet_enabled = null
+shader_parameter/planet_direction = Vector3(-0.4864204, 0.52991927, 0.69468033)
+shader_parameter/planet_angular_radius = null
+shader_parameter/planet_scale = null
+shader_parameter/planet_day = ExtResource("3_ybnj5")
+shader_parameter/planet_clouds = ExtResource("2_i2igh")
+shader_parameter/planet_rotation = null
+shader_parameter/planet_tilt = null
+shader_parameter/atmosphere_color = null
+shader_parameter/planet_intensity = null
+
+[sub_resource type="Sky" id="Sky_y7u2r"]
+sky_material = SubResource("ShaderMaterial_1gtwm")
+process_mode = 1
+
+[resource]
+background_mode = 2
+sky = SubResource("Sky_y7u2r")
+ambient_light_source = 2
+ambient_light_color = Color(0.55, 0.62, 0.75, 1)
+ambient_light_energy = 0.12
+reflected_light_source = 1
+tonemap_mode = 4
+ssao_enabled = true
+ssao_radius = 1.6
+ssao_intensity = 1.6
+glow_enabled = true
+glow_levels/1 = 0.6
+glow_levels/2 = 0.8
+glow_levels/3 = 0.8
+glow_levels/4 = 0.6
+glow_levels/5 = 0.35
+glow_levels/6 = 0.15
+glow_intensity = 0.5
+glow_bloom = 0.0
+glow_hdr_threshold = 1.6
+glow_hdr_scale = 1.4

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="BuildableDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/data/buildable_def.gd" id="1_def"]
+[ext_resource type="PackedScene" path="res://assets/models/structures/lander.glb" id="2_model"]
+
+[resource]
+script = ExtResource("1_def")
+role = 0
+model = ExtResource("2_model")
+cost = Dictionary[StringName, int]({})
+power_kw = 1.0
+storage_kwh = 6.0
+footprint_radius = 3.2
+build_time = 0.1
+priority = 10
+function_key = "BUILD_LANDER_FUNCTION"
+id = &"lander"
+name_key = "BUILD_LANDER_NAME"
+description_key = "BUILD_LANDER_DESC"

@@ -1,0 +1,23 @@
+{
+	"dataset": "NASA CCMC DONKI (Space Weather Database Of Notifications, Knowledge, Information)",
+	"api": "https://api.nasa.gov/DONKI/",
+	"retrieved": "2026-11-15",
+	"kind": "REAL_DATA",
+	"events": [
+		{"type": "FLR", "id": "2024-05-11T01:10:00-FLR-001", "time": "2024-05-11T01:10Z", "note": "Fulguración vinculada al evento de partículas (linkedEvents del registro SEP)."},
+		{"type": "CME", "id": "2024-05-11T01:36:00-CME-001", "time": "2024-05-11T01:36Z", "note": "Eyección de masa coronal vinculada."},
+		{"type": "SEP", "id": "2024-05-11T02:10:00-SEP-001", "time": "2024-05-11T02:10Z", "instrument": "GOES-P: SEISS >100 MeV",
+			"link": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30714/-1", "alerts": ["20240511-AL-006", "20240511-AL-007"]},
+		{"type": "GST", "id": "2024-05-10T15:00:00-GST-001", "kp_max": 9.0, "kp_series": [[ "2024-05-10T18:00Z", 7.67], ["2024-05-10T21:00Z", 8.67], ["2024-05-11T00:00Z", 9.0], ["2024-05-11T03:00Z", 9.0]]}
+	],
+	"derived": {
+		"flare_to_protons_minutes": 60,
+		"note": "Intervalo entre la fulguración (01:10Z) y la detección de protones >100 MeV por GOES (02:10Z)."
+	},
+	"background_dose": {
+		"kind": "REAL_DATA",
+		"value_usv_per_day": 1369,
+		"source": "Chang'e 4 Lunar Lander Neutron and Dosimetry (LND) — Zhang et al., Science Advances 6 (2020)",
+		"note": "Dosis equivalente medida en la superficie lunar (radiación cósmica de fondo, sin eventos solares)."
+	}
+}

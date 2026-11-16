@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BuildableDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/data/buildable_def.gd" id="1_def"]
+[ext_resource type="Script" path="res://systems/colony/modules/battery_bank.gd" id="2_mod"]
+
+[resource]
+script = ExtResource("1_def")
+role = 2
+cost = Dictionary[StringName, int]({})
+power_kw = 0.0
+storage_kwh = 20.0
+footprint_radius = 4.8
+build_time = 0.1
+priority = 0
+shield_factor = 1.0
+module_script = ExtResource("2_mod")
+sector = &"energy"
+function_key = "BUILD_BATTERY_BANK_FUNCTION"
+id = &"battery_bank"
+name_key = "BUILD_BATTERY_BANK_NAME"
+description_key = "BUILD_BATTERY_BANK_DESC"

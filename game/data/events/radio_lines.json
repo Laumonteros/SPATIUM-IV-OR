@@ -1,0 +1,77 @@
+{
+ "_doc": "Mensajes de radio de Control de misión. Cada línea tiene texto en inglés (idioma principal) y español; la voz se genera con tools/generate_voice_tts.ps1 + tools/generate_voice_radio.py en game/assets/audio/voice/<id>_<en|es>.wav. El subtítulo es el mismo texto.",
+ "lines": {
+  "onb_1": {
+   "en": "Spatium habitat, this is Mission Control. Telemetry confirmed. Welcome to Albor base, on the Moon.",
+   "es": "Hábitat Spatium, acá Control de misión. Telemetría confirmada. Bienvenida a la base Albor, en la Luna."
+  },
+  "onb_2": {
+   "en": "The colony is up and running. Ines and Tomas are at their posts, and your rover is parked outside.",
+   "es": "La colonia está en marcha. Inés y Tomás están en sus puestos, y tu rover está estacionado afuera."
+  },
+  "onb_3": {
+   "en": "Your suit holds oxygen for a limited time outside. Get back to any module to recharge. Good luck, explorer.",
+   "es": "Tu traje tiene oxígeno por un tiempo limitado afuera. Volvé a cualquier módulo para recargarlo. Buena suerte."
+  },
+  "flare_alert": {
+   "en": "Mission Control to colony: a strong solar flare just erupted. Energetic protons are on their way to the Moon. Decide how to protect the crew.",
+   "es": "Control de misión a la colonia: acaba de estallar una fuerte fulguración solar. Los protones vienen hacia la Luna. Decidan cómo proteger a la tripulación."
+  },
+  "flare_clear": {
+   "en": "The proton storm is over. Radiation is back to normal levels. Good work.",
+   "es": "La tormenta de protones terminó. La radiación volvió a la normalidad. Buen trabajo."
+  },
+  "dust": {
+   "en": "Heads up: electrostatic dust is coating the solar panels and power output is dropping. Someone needs to clean them.",
+   "es": "Atención: el polvo lunar se pegó a los paneles solares y generan menos energía. Hay que ir a limpiarlos."
+  },
+  "dust_clean": {
+   "en": "Panels are clean. Full power restored.",
+   "es": "Paneles limpios. La energía volvió al máximo."
+  },
+  "leak": {
+   "en": "Alarm! A micrometeoroid punctured a module and we are losing air. Patch it now or go repair it in person.",
+   "es": "¡Alarma! Un micrometeorito perforó un módulo y estamos perdiendo aire. Parchealo ahora o andá a repararlo en persona."
+  },
+  "leak_fixed": {
+   "en": "Hull breach sealed. Pressure is stable.",
+   "es": "Perforación sellada. La presión está estable."
+  },
+  "blackout": {
+   "en": "Communications with Earth will be down for a few minutes while the antenna is realigned. You are on your own.",
+   "es": "Se cortan las comunicaciones con la Tierra unos minutos mientras se realinea la antena. Quedan por su cuenta."
+  },
+  "blackout_end": {
+   "en": "Link with Earth restored. Our signals take about one point three seconds to cross the distance.",
+   "es": "Enlace con la Tierra restablecido. Nuestras señales tardan un segundo y tres décimas en cruzar la distancia."
+  },
+  "impact": {
+   "en": "We just saw an impact flash near the colony! The fresh crater may hold new samples. It is marked on your map.",
+   "es": "¡Vimos un destello de impacto cerca de la colonia! El cráter nuevo puede tener muestras frescas. Está marcado en tu mapa."
+  },
+  "quake": {
+   "en": "Seismometers detect a shallow moonquake. Hold on, and then check the modules.",
+   "es": "Los sismómetros detectan un sismo lunar superficial. Sujetate y después revisá los módulos."
+  },
+  "science": {
+   "en": "Earth requests new data: bring a geological sample from a crater rim. Science points will be your reward.",
+   "es": "La Tierra pide datos nuevos: traé una muestra geológica del borde de un cráter. Te pagan con puntos científicos."
+  },
+  "science_done": {
+   "en": "Sample data received. Thank you! Science points added.",
+   "es": "Datos de la muestra recibidos. ¡Gracias! Se sumaron puntos científicos."
+  },
+  "flare_forecast": {
+   "en": "Space weather forecast: an active region on the Sun is turning toward us. A strong flare is likely in the next minutes. Prepare the shelters.",
+   "es": "Pronóstico del clima espacial: una región activa del Sol gira hacia nosotros. Es probable una fulguración fuerte en los próximos minutos. Preparen los refugios."
+  },
+  "return_ready": {
+   "en": "Ariel's tanks are full. You are cleared for liftoff whenever you are ready.",
+   "es": "Los tanques del Ariel están llenos. Tenés autorización para despegar cuando quieras."
+  },
+  "launch_go": {
+   "en": "Ariel, you are go for liftoff. Three, two, one. Ignition. Have a safe trip home.",
+   "es": "Ariel, autorizado para despegar. Tres, dos, uno. Ignición. Buen viaje a casa."
+  }
+ }
+}

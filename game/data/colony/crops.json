@@ -1,0 +1,17 @@
+{
+	"_doc": "Cultivos del Centro de Hidroponía. grow_minutes y water_l_per_min son VALORES DE JUEGO (tiempo comprimido: 1 s real = 1 min de juego). La referencia real se cita en 'science'.",
+	"crops": [
+		{"id": "lettuce", "name_es": "Lechuga", "name_en": "Lettuce", "grow_minutes": 420, "water_l_per_min": 0.004, "rations_per_harvest": 2,
+			"science": {"kind": "adapted", "es": "En la Estación Espacial, el sistema Veggie de NASA cultivó lechuga romana 'Outredgeous' en unos 28-33 días. Acá el ciclo se comprime a 7 minutos reales.", "en": "On the Space Station, NASA's Veggie system grew 'Outredgeous' romaine lettuce in about 28-33 days. Here the cycle is compressed to 7 real minutes.", "source": "NASA — Veggie (VEG-01, 2014-2015)"}},
+		{"id": "tomato", "name_es": "Tomate enano", "name_en": "Dwarf tomato", "grow_minutes": 720, "water_l_per_min": 0.006, "rations_per_harvest": 4,
+			"science": {"kind": "adapted", "es": "El experimento VEG-05 de NASA cultivó tomates enanos 'Red Robin' en la Estación Espacial (2023); tardan unos 90-100 días en dar frutos.", "en": "NASA's VEG-05 experiment grew 'Red Robin' dwarf tomatoes on the Space Station (2023); they take about 90-100 days to fruit.", "source": "NASA — VEG-05"}},
+		{"id": "potato", "name_es": "Papa", "name_en": "Potato", "grow_minutes": 900, "water_l_per_min": 0.005, "rations_per_harvest": 5,
+			"science": {"kind": "adapted", "es": "NASA estudió la papa en cámaras de crecimiento controlado (Biomass Production Chamber, Kennedy) como cultivo base para hábitats de larga duración.", "en": "NASA studied potatoes in controlled growth chambers (Biomass Production Chamber, Kennedy) as a staple crop for long-duration habitats.", "source": "NASA KSC — Biomass Production Chamber (década de 1990)"}},
+		{"id": "wheat", "name_es": "Trigo enano", "name_en": "Dwarf wheat", "grow_minutes": 840, "water_l_per_min": 0.004, "rations_per_harvest": 4,
+			"science": {"kind": "adapted", "es": "El trigo enano 'Apogee' fue desarrollado para sistemas de soporte vital biorregenerativo de NASA: es bajo y produce mucho bajo luz artificial.", "en": "'Apogee' dwarf wheat was developed for NASA bioregenerative life support: it is short and highly productive under artificial light.", "source": "Utah State University / NASA (1990s)"}},
+		{"id": "soybean", "name_es": "Soja", "name_en": "Soybean", "grow_minutes": 780, "water_l_per_min": 0.005, "rations_per_harvest": 3,
+			"science": {"kind": "adapted", "es": "La soja aporta proteína y aceite; fue uno de los cultivos de los ensayos de soporte vital de NASA en cámaras cerradas.", "en": "Soybeans provide protein and oil; they were among the crops in NASA's closed-chamber life-support trials.", "source": "NASA KSC — CELSS"}},
+		{"id": "radish", "name_es": "Rabanito", "name_en": "Radish", "grow_minutes": 300, "water_l_per_min": 0.003, "rations_per_harvest": 1,
+			"science": {"kind": "adapted", "es": "En 2020 se cosecharon rabanitos en el Advanced Plant Habitat de la Estación Espacial a los 27 días de la siembra.", "en": "In 2020 radishes were harvested in the Space Station's Advanced Plant Habitat 27 days after planting.", "source": "NASA — Plant Habitat-02"}}
+	]
+}

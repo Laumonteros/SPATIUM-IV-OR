@@ -1,0 +1,73 @@
+{
+	"_doc": "Cuerpos del cielo lunar que se pueden observar con los binoculares. Posiciones (az: 0 = norte/-Z, 90 = este/+X; el: elevación) elegidas para el juego, coherentes con el Sol (Venus cerca de él). 'radius_rad' es el radio angular AMPLIADO para que el disco se vea con binoculares (valor de juego); los datos de las filas son reales (NASA Planetary Fact Sheet). La Tierra toma su dirección y tamaño del cielo.",
+	"source": "NASA — Planetary Fact Sheet (NSSDCA)",
+	"bodies": [
+		{"id": "earth", "sky": "earth", "color": "#6AB0FF",
+			"name_es": "La Tierra", "name_en": "Earth",
+			"rows": [
+				["Distancia media", "Mean distance", "384.400 km", "384,400 km"],
+				["Diámetro", "Diameter", "12.742 km", "12,742 km"],
+				["Retardo de la luz (radio)", "Light (radio) delay", "1,28 s", "1.28 s"],
+				["Día sideral", "Sidereal day", "23 h 56 min", "23 h 56 min"],
+				["Gravedad", "Gravity", "9,81 m/s²", "9.81 m/s²"],
+				["Fase iluminada (ahora)", "Lit phase (now)", "{phase}", "{phase}"]
+			],
+			"note_es": "Desde la Luna mide ~1,9°: casi 4 veces la Luna llena vista desde la Tierra.",
+			"note_en": "From the Moon it spans ~1.9°: almost 4 times the full Moon seen from Earth.",
+			"kind": "real", "source": "NASA — Earth Fact Sheet (NSSDCA)"},
+		{"id": "venus", "index": 0, "az": 98, "el": 31, "radius_rad": 0.0026, "dist_au": 0.75, "color": "#FFF0C8",
+			"name_es": "Venus", "name_en": "Venus",
+			"rows": [
+				["Distancia a la Tierra", "Distance from Earth", "38 a 261 millones de km", "38 to 261 million km"],
+				["Diámetro", "Diameter", "12.104 km", "12,104 km"],
+				["Día (rotación)", "Day (rotation)", "243 días, retrógrada", "243 days, retrograde"],
+				["Año", "Year", "225 días", "225 days"],
+				["Temperatura media", "Mean temperature", "464 °C", "464 °C"],
+				["Lunas", "Moons", "0", "0"],
+				["Fase iluminada (ahora)", "Lit phase (now)", "{phase}", "{phase}"]
+			],
+			"note_es": "El planeta más caliente: su atmósfera de CO₂ atrapa el calor. Sus nubes reflejan tanta luz que es el objeto más brillante del cielo después del Sol y la Tierra.",
+			"note_en": "The hottest planet: its CO₂ atmosphere traps heat. Its clouds reflect so much light that it is the brightest object in the sky after the Sun and Earth.",
+			"kind": "real", "source": "NASA — Venus Fact Sheet (NSSDCA)"},
+		{"id": "mars", "index": 1, "az": 300, "el": 24, "radius_rad": 0.0022, "dist_au": 1.5, "color": "#FF8A5A",
+			"name_es": "Marte", "name_en": "Mars",
+			"rows": [
+				["Distancia a la Tierra", "Distance from Earth", "55 a 401 millones de km", "55 to 401 million km"],
+				["Diámetro", "Diameter", "6.779 km", "6,779 km"],
+				["Día (sol marciano)", "Day (sol)", "24 h 40 min", "24 h 40 min"],
+				["Año", "Year", "687 días", "687 days"],
+				["Temperatura media", "Mean temperature", "−65 °C", "−65 °C"],
+				["Gravedad", "Gravity", "3,71 m/s²", "3.71 m/s²"],
+				["Lunas", "Moons", "2 (Fobos y Deimos)", "2 (Phobos and Deimos)"]
+			],
+			"note_es": "Próximo destino de la exploración humana. Su color rojo viene del óxido de hierro del polvo; tiene casquetes polares de hielo de agua y CO₂.",
+			"note_en": "The next destination for human exploration. Its red color comes from iron oxide in the dust; it has polar caps of water and CO₂ ice.",
+			"kind": "real", "source": "NASA — Mars Fact Sheet (NSSDCA)"},
+		{"id": "jupiter", "index": 2, "az": 128, "el": 38, "radius_rad": 0.0042, "dist_au": 5.2, "color": "#E8C08A",
+			"name_es": "Júpiter", "name_en": "Jupiter",
+			"rows": [
+				["Distancia a la Tierra", "Distance from Earth", "588 a 968 millones de km", "588 to 968 million km"],
+				["Diámetro", "Diameter", "142.984 km", "142,984 km"],
+				["Día (rotación)", "Day (rotation)", "9 h 56 min", "9 h 56 min"],
+				["Año", "Year", "11,9 años", "11.9 years"],
+				["Gravedad (nubes)", "Gravity (cloud tops)", "24,8 m/s²", "24.8 m/s²"],
+				["Lunas conocidas", "Known moons", "95", "95"]
+			],
+			"note_es": "El planeta más grande: entrarían más de 1.300 Tierras. La Gran Mancha Roja es una tormenta más ancha que la Tierra, observada desde hace siglos.",
+			"note_en": "The largest planet: more than 1,300 Earths would fit inside. The Great Red Spot is a storm wider than Earth, observed for centuries.",
+			"kind": "real", "source": "NASA — Jupiter Fact Sheet (NSSDCA)"},
+		{"id": "saturn", "index": 3, "az": 252, "el": 17, "radius_rad": 0.0028, "dist_au": 9.5, "color": "#F2D78C",
+			"name_es": "Saturno", "name_en": "Saturn",
+			"rows": [
+				["Distancia a la Tierra", "Distance from Earth", "1.200 a 1.660 millones de km", "1,200 to 1,660 million km"],
+				["Diámetro", "Diameter", "120.536 km", "120,536 km"],
+				["Día (rotación)", "Day (rotation)", "10 h 33 min", "10 h 33 min"],
+				["Año", "Year", "29,4 años", "29.4 years"],
+				["Gravedad (nubes)", "Gravity (cloud tops)", "10,4 m/s²", "10.4 m/s²"],
+				["Lunas conocidas", "Known moons", "146", "146"]
+			],
+			"note_es": "Sus anillos son de hielo y roca: miden más de 270.000 km de ancho pero, en general, menos de 1 km de espesor.",
+			"note_en": "Its rings are made of ice and rock: over 270,000 km wide but generally less than 1 km thick.",
+			"kind": "real", "source": "NASA — Saturn Fact Sheet (NSSDCA)"}
+	]
+}

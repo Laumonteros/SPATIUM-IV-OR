@@ -1,0 +1,71 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://entities/player/player.gd" id="1_player"]
+[ext_resource type="PackedScene" path="res://assets/models/characters/astronaut/astronaut.glb" id="2_model"]
+[ext_resource type="Script" path="res://entities/player/player_animator.gd" id="3_anim"]
+[ext_resource type="Script" path="res://entities/player/interactor.gd" id="4_inter"]
+[ext_resource type="Script" path="res://entities/player/camera_rig.gd" id="5_cam"]
+[ext_resource type="Script" path="res://systems/inventory/inventory.gd" id="6_inv"]
+[ext_resource type="Script" path="res://entities/player/player_effects.gd" id="7_fx"]
+[ext_resource type="Script" path="res://systems/scanner/scanner.gd" id="8_scan"]
+[ext_resource type="Script" path="res://systems/building/build_system.gd" id="9_build"]
+[ext_resource type="Script" path="res://systems/survival/suit_status.gd" id="10_suit"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_body"]
+radius = 0.34
+height = 1.8
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_reach"]
+radius = 2.4
+
+[node name="Player" type="CharacterBody3D"]
+collision_layer = 2
+collision_mask = 261
+floor_constant_speed = true
+script = ExtResource("1_player")
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_body")
+
+[node name="Visual" type="Node3D" parent="."]
+
+[node name="Astronaut" parent="Visual" instance=ExtResource("2_model")]
+
+[node name="Animator" type="Node" parent="."]
+script = ExtResource("3_anim")
+animation_player_path = NodePath("../Visual/Astronaut/AnimationPlayer")
+
+[node name="Interactor" type="Area3D" parent="."]
+script = ExtResource("4_inter")
+
+[node name="Reach" type="CollisionShape3D" parent="Interactor"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("SphereShape3D_reach")
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("5_cam")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraRig"]
+collision_mask = 5
+margin = 0.25
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig/SpringArm3D"]
+fov = 70.0
+near = 0.08
+far = 6000.0
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource("6_inv")
+
+[node name="Effects" type="Node" parent="."]
+script = ExtResource("7_fx")
+
+[node name="Scanner" type="Node" parent="."]
+script = ExtResource("8_scan")
+
+[node name="BuildSystem" type="Node" parent="."]
+script = ExtResource("9_build")
+
+[node name="SuitStatus" type="Node" parent="."]
+script = ExtResource("10_suit")

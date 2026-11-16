@@ -1,0 +1,218 @@
+{
+ "_doc": "Recetas del Taller. kind: kit (módulo prefabricado: se coloca con B sin gastar materiales), equipment (mejora del traje o herramientas), upgrade (mejora de la base). cost: recursos del inventario; research: datos científicos (se ganan en el Laboratorio). seconds: tiempo real de fabricación. Valores de juego.",
+ "recipes": [
+  {
+   "id": "kit_solar_panel",
+   "kind": "kit",
+   "buildable": "solar_panel",
+   "cost": {
+    "regolith": 8,
+    "iron": 2
+   },
+   "research": 0,
+   "seconds": 40,
+   "name_es": "Kit de panel solar",
+   "name_en": "Solar panel kit",
+   "desc_es": "La impresora sinteriza el bastidor con regolito: ahorra hierro. Se coloca con el modo construcción.",
+   "desc_en": "The printer sinters the frame from regolith, saving iron. Place it in build mode."
+  },
+  {
+   "id": "kit_battery",
+   "kind": "kit",
+   "buildable": "battery",
+   "cost": {
+    "regolith": 5,
+    "iron": 3
+   },
+   "research": 0,
+   "seconds": 35,
+   "name_es": "Kit de batería",
+   "name_en": "Battery kit",
+   "desc_es": "Gabinete de baterías listo para conectar a la red.",
+   "desc_en": "Battery cabinet ready to connect to the grid."
+  },
+  {
+   "id": "kit_oxygen_generator",
+   "kind": "kit",
+   "buildable": "oxygen_generator",
+   "cost": {
+    "regolith": 8,
+    "iron": 4
+   },
+   "research": 1,
+   "seconds": 45,
+   "name_es": "Kit de generador de O₂",
+   "name_en": "O₂ generator kit",
+   "desc_es": "Reactor de extracción de oxígeno del regolito.",
+   "desc_en": "Reactor that extracts oxygen from regolith."
+  },
+  {
+   "id": "kit_water_extractor",
+   "kind": "kit",
+   "buildable": "water_extractor",
+   "cost": {
+    "regolith": 6,
+    "iron": 3
+   },
+   "research": 1,
+   "seconds": 45,
+   "name_es": "Kit de extractor de agua",
+   "name_en": "Water extractor kit",
+   "desc_es": "Horno que sublima el hielo del regolito y recupera el agua.",
+   "desc_en": "Oven that sublimates ice from regolith and recovers the water."
+  },
+  {
+   "id": "kit_habitat",
+   "kind": "kit",
+   "buildable": "habitat",
+   "cost": {
+    "regolith": 18,
+    "iron": 6
+   },
+   "research": 2,
+   "seconds": 60,
+   "name_es": "Kit de hábitat",
+   "name_en": "Habitat kit",
+   "desc_es": "Módulo presurizado con escudo de regolito para ampliar la base.",
+   "desc_en": "Pressurized module with regolith shield to expand the base."
+  },
+  {
+   "id": "suit_o2_tank",
+   "kind": "equipment",
+   "cost": {
+    "iron": 6,
+    "water_ice": 2
+   },
+   "research": 2,
+   "seconds": 45,
+   "name_es": "Tanque de O₂ ampliado",
+   "name_en": "Extended O₂ tank",
+   "desc_es": "El traje gasta un 30 % menos de su reserva de oxígeno por minuto (más autonomía en el exterior).",
+   "desc_en": "The suit uses 30 % less of its oxygen reserve per minute (longer EVAs)."
+  },
+  {
+   "id": "suit_battery",
+   "kind": "equipment",
+   "cost": {
+    "iron": 5,
+    "regolith": 4
+   },
+   "research": 1,
+   "seconds": 40,
+   "name_es": "Batería de traje de alta densidad",
+   "name_en": "High-density suit battery",
+   "desc_es": "La energía del traje dura un 30 % más.",
+   "desc_en": "Suit power lasts 30 % longer."
+  },
+  {
+   "id": "drill_upgrade",
+   "kind": "equipment",
+   "cost": {
+    "iron": 8,
+    "geo_sample": 1
+   },
+   "research": 2,
+   "seconds": 50,
+   "name_es": "Martillo-sonda mejorado",
+   "name_en": "Improved hammer-probe",
+   "desc_es": "Cada golpe de recolección rinde una unidad más.",
+   "desc_en": "Each collection strike yields one more unit."
+  },
+  {
+   "id": "solar_hpe",
+   "kind": "upgrade",
+   "cost": {
+    "iron": 6,
+    "regolith": 6
+   },
+   "research": 3,
+   "seconds": 60,
+   "name_es": "Celdas solares de alta eficiencia",
+   "name_en": "High-efficiency solar cells",
+   "desc_es": "Todos los paneles producen un 25 % más.",
+   "desc_en": "All panels produce 25 % more."
+  },
+  {
+   "id": "battery_ext",
+   "kind": "upgrade",
+   "cost": {
+    "iron": 8,
+    "regolith": 4
+   },
+   "research": 2,
+   "seconds": 55,
+   "name_es": "Ampliación del banco de baterías",
+   "name_en": "Battery bank expansion",
+   "desc_es": "+10 kWh de almacenamiento en el sector Energía.",
+   "desc_en": "+10 kWh of storage in the Energy sector."
+  },
+  {
+   "id": "grow_led",
+   "kind": "upgrade",
+   "cost": {
+    "iron": 4,
+    "regolith": 2
+   },
+   "research": 2,
+   "seconds": 45,
+   "name_es": "Luces LED de cultivo de espectro ajustado",
+   "name_en": "Tuned-spectrum grow LEDs",
+   "desc_es": "Los cultivos del domo crecen un 35 % más rápido.",
+   "desc_en": "Dome crops grow 35 % faster."
+  },
+  {
+   "id": "o2_catalyst",
+   "kind": "upgrade",
+   "cost": {
+    "iron": 5,
+    "geo_sample": 1
+   },
+   "research": 3,
+   "seconds": 60,
+   "name_es": "Catalizador del generador de O₂",
+   "name_en": "O₂ generator catalyst",
+   "desc_es": "Los generadores de oxígeno procesan regolito un 50 % más rápido.",
+   "desc_en": "Oxygen generators process regolith 50 % faster."
+  },
+  {
+   "id": "regolith_shield_plus",
+   "kind": "upgrade",
+   "cost": {
+    "regolith": 20
+   },
+   "research": 1,
+   "seconds": 50,
+   "name_es": "Tercera capa de sacos de regolito",
+   "name_en": "Third layer of regolith bags",
+   "desc_es": "Los monoblocks dejan pasar menos radiación durante una tormenta solar (de 15 % a 9 %).",
+   "desc_en": "Monoblocks let less radiation through during a solar storm (from 15 % to 9 %)."
+  },
+  {
+   "id": "fusion_cell",
+   "kind": "energy",
+   "kwh": 20,
+   "cost": {
+    "helium_3": 2
+   },
+   "research": 2,
+   "seconds": 40,
+   "name_es": "Celda experimental de helio-3",
+   "name_en": "Experimental helium-3 cell",
+   "desc_es": "Prototipo de tecnología futura (la fusión con helio-3 aún no existe): carga 20 kWh en las baterías. Valor de juego.",
+   "desc_en": "Future-tech prototype (helium-3 fusion does not exist yet): adds 20 kWh to the batteries. Game value."
+  },
+  {
+   "id": "propellant",
+   "kind": "propellant",
+   "cost": {
+    "water_ice": 4
+   },
+   "research": 0,
+   "seconds": 35,
+   "name_es": "Tanque de propelente (electrólisis)",
+   "name_en": "Propellant tank (electrolysis)",
+   "desc_es": "Funde hielo y separa el agua en hidrógeno y oxígeno líquidos para el despegue del módulo Ariel (hacen falta 5).",
+   "desc_en": "Melts ice and splits the water into liquid hydrogen and oxygen for the Ariel module's liftoff (5 needed)."
+  }
+ ]
+}

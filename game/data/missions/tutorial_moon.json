@@ -1,0 +1,54 @@
+{
+	"_doc": "Tutorial opcional (se elige al empezar una partida nueva). Cada paso enseña una acción básica con su tecla; se cuenta con las mismas acciones del juego.",
+	"missions": [
+		{"id": "t1_move", "tutorial": true,
+			"title": {"es": "Tutorial 1 · Caminar en la Luna", "en": "Tutorial 1 · Walking on the Moon"},
+			"briefing": {"es": "Movete con W A S D y mirá con el mouse. Corré con Shift y saltá con Espacio: con 1/6 de la gravedad de la Tierra, cada salto dura mucho más. Salí del hábitat por la puerta del frente.", "en": "Move with W A S D and look around with the mouse. Run with Shift and jump with Space: with 1/6 of Earth's gravity, every jump lasts much longer. Leave the habitat through the front door."},
+			"objectives": [
+				{"type": "distance", "target": 12, "text": {"es": "Salí del hábitat (W A S D)", "en": "Leave the habitat (W A S D)"}},
+				{"type": "action", "action": "jump", "count": 1, "text": {"es": "Saltá una vez (Espacio)", "en": "Jump once (Space)"}}],
+			"debrief": {"es": "Los astronautas del Apolo descubrieron que saltar como canguro era más fácil que caminar en la Luna.", "en": "Apollo astronauts found that hopping like a kangaroo was easier than walking on the Moon."}},
+		{"id": "t2_scan", "tutorial": true,
+			"title": {"es": "Tutorial 2 · Escanear", "en": "Tutorial 2 · Scanning"},
+			"briefing": {"es": "Presioná Q (o elegí el escáner con 2 y hacé clic). La onda marca cada roca con el ícono y el color de lo que da: círculo arena = regolito, hexágono naranja = hierro, gota celeste = hielo, triángulo violeta = muestra.", "en": "Press Q (or pick the scanner with 2 and click). The wave marks each rock with the icon and color of what it yields: sand circle = regolith, orange hexagon = iron, blue drop = ice, purple triangle = sample."},
+			"objectives": [
+				{"type": "action", "action": "scan", "count": 1, "text": {"es": "Escaneá los alrededores (Q)", "en": "Scan your surroundings (Q)"}}],
+			"debrief": {"es": "Los orbitadores de NASA, como el LRO, escanean la Luna desde el espacio para encontrar recursos y lugares seguros para alunizar.", "en": "NASA orbiters such as LRO scan the Moon from space to find resources and safe landing sites."}},
+		{"id": "t3_collect", "tutorial": true,
+			"title": {"es": "Tutorial 3 · Recolectar", "en": "Tutorial 3 · Collecting"},
+			"briefing": {"es": "Acercate a una roca marcada y presioná E (o hacé clic con la mano, ranura 1). Cada extracción achica la roca; los fragmentos van a la bolsa del traje.", "en": "Walk up to a marked rock and press E (or click with the hand, slot 1). Each harvest shrinks the rock; the fragments go into your suit bag."},
+			"objectives": [
+				{"type": "collect", "item": "regolith", "count": 5, "text": {"es": "Recolectá 5 de regolito (E)", "en": "Collect 5 regolith (E)"}}],
+			"debrief": {"es": "El regolito es el suelo lunar: polvo y piedritas formados por miles de millones de años de impactos.", "en": "Regolith is lunar soil: dust and pebbles made by billions of years of impacts."}},
+		{"id": "t4_inventory", "tutorial": true,
+			"title": {"es": "Tutorial 4 · Tu inventario", "en": "Tutorial 4 · Your inventory"},
+			"briefing": {"es": "Abrí el inventario con Tab: ahí ves cuánto cargás (máximo 120 kg), para qué sirve cada recurso y las reservas de la colonia.", "en": "Open the inventory with Tab: it shows how much you carry (120 kg max), what each resource is for and the colony's reserves."},
+			"objectives": [
+				{"type": "action", "action": "inventory", "count": 1, "text": {"es": "Abrí el inventario (Tab)", "en": "Open the inventory (Tab)"}}],
+			"debrief": {"es": "Cada kilo cuenta: llevar materiales desde la Tierra cuesta miles de dólares por kilo, por eso se usan los recursos locales.", "en": "Every kilo counts: shipping materials from Earth costs thousands of dollars per kilo, so local resources are used instead."}},
+		{"id": "t5_observe", "tutorial": true,
+			"title": {"es": "Tutorial 5 · Observar", "en": "Tutorial 5 · Observing"},
+			"briefing": {"es": "Elegí los binoculares con 3 y mantené el clic para mirar lejos. Apuntá a la Tierra, a un planeta o a una roca hasta que el círculo se cierre: aparece su ficha con datos reales.", "en": "Pick the binoculars with 3 and hold click to look far away. Aim at Earth, a planet or a rock until the circle closes: its card with real data appears."},
+			"objectives": [
+				{"type": "action", "action": "observe", "count": 1, "text": {"es": "Fijá un objetivo con los binoculares (3)", "en": "Lock a target with the binoculars (3)"}}],
+			"debrief": {"es": "Desde la Luna, la Tierra casi no se mueve en el cielo, pero cambia de fase como la Luna vista desde la Tierra.", "en": "From the Moon, Earth barely moves in the sky, but it goes through phases like the Moon seen from Earth."}},
+		{"id": "t6_power", "tutorial": true,
+			"title": {"es": "Tutorial 6 · Energía", "en": "Tutorial 6 · Power"},
+			"briefing": {"es": "Seguí los carteles hasta el sector Energía y usá la terminal del banco de baterías (E). Ahí decidís qué sistemas reciben energía: lo que apagás ahorra, pero deja de funcionar.", "en": "Follow the signs to the Energy sector and use the battery bank terminal (E). There you decide which systems get power: what you switch off saves energy, but stops working."},
+			"objectives": [
+				{"type": "action", "action": "power_panel", "count": 1, "text": {"es": "Abrí el Reparto de energía", "en": "Open the Power budget"}}],
+			"debrief": {"es": "En la Estación Espacial, si falta energía, Control de misión apaga primero lo que no es vital.", "en": "On the Space Station, if power runs short, Mission Control first switches off what is not vital."}},
+		{"id": "t7_farm", "tutorial": true,
+			"title": {"es": "Tutorial 7 · Cultivar", "en": "Tutorial 7 · Farming"},
+			"briefing": {"es": "Entrá al domo de Hidroponía. Hay un bancal vacío: usalo (E) y elegí qué plantar. Cuando un cultivo madure, volvé a cosecharlo con E.", "en": "Go into the Hydroponics dome. There is an empty bed: use it (E) and choose what to plant. When a crop ripens, come back and harvest it with E."},
+			"objectives": [
+				{"type": "action", "action": "plant", "count": 1, "text": {"es": "Plantá un cultivo en el domo", "en": "Plant a crop in the dome"}}],
+			"debrief": {"es": "NASA ya cosechó lechuga, rabanitos y tomates en la Estación Espacial: cultivar comida es clave para viajes largos.", "en": "NASA has already harvested lettuce, radishes and tomatoes on the Space Station: growing food is key for long journeys."}},
+		{"id": "t8_shelter", "tutorial": true,
+			"title": {"es": "Tutorial 8 · Volver a refugio", "en": "Tutorial 8 · Back to shelter"},
+			"briefing": {"es": "El oxígeno del traje es limitado. Entrá a cualquier módulo: adentro el traje se recarga y la radiación baja. Con eso terminás el tutorial.", "en": "Your suit's oxygen is limited. Go inside any module: there the suit recharges and radiation drops. That completes the tutorial."},
+			"objectives": [
+				{"type": "action", "action": "shelter", "count": 1, "text": {"es": "Entrá a un módulo presurizado", "en": "Enter a pressurized module"}}],
+			"debrief": {"es": "¡Tutorial completo! Ahora empieza la misión real: cada decisión tiene un costo.", "en": "Tutorial complete! Now the real mission begins: every decision has a cost."}}
+	]
+}

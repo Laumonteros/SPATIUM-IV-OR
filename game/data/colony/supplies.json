@@ -1,0 +1,14 @@
+{
+	"_doc": "Pedidos a la Tierra desde el Centro de Comando. Se pagan con datos científicos (la Tierra envía carga a cambio del retorno científico de la misión). delivery_s: segundos reales hasta que la cápsula aluniza en la plataforma de suministros. Valores de juego.",
+	"start_research": 2,
+	"packages": [
+		{"id": "rations", "research": 2, "delivery_s": 90, "name_es": "Raciones (×10)", "name_en": "Rations (×10)",
+			"contents": {"rations": 10}, "desc_es": "Comida deshidratada y termoestabilizada para la tripulación.", "desc_en": "Dehydrated and thermostabilized crew food."},
+		{"id": "oxygen", "research": 2, "delivery_s": 90, "name_es": "Tanques de O₂ (6 kg)", "name_en": "O₂ tanks (6 kg)",
+			"contents": {"oxygen_kg": 6.0}, "desc_es": "Oxígeno comprimido para las reservas de la base.", "desc_en": "Compressed oxygen for the base reserves."},
+		{"id": "metals", "research": 3, "delivery_s": 120, "name_es": "Lingotes de hierro (×15)", "name_en": "Iron ingots (×15)",
+			"contents": {"item:iron": 15}, "desc_es": "Material para el Taller cuando escasea la ilmenita.", "desc_en": "Workshop material when ilmenite is scarce."},
+		{"id": "solar_kit", "research": 4, "delivery_s": 120, "name_es": "Kit de panel solar", "name_en": "Solar panel kit",
+			"contents": {"kit:solar_panel": 1}, "desc_es": "Panel completo, fabricado en la Tierra.", "desc_en": "Complete panel, built on Earth."}
+	]
+}

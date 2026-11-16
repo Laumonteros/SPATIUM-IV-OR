@@ -1,0 +1,25 @@
+{
+	"_doc": "Objetivos de los observatorios del Laboratorio. drift = deriva del seguimiento (valor de juego); hold_s = segundos que hay que mantener el objetivo centrado.",
+	"observatories": [
+		{"name_key": "COLONY_OBS_PLANETARY", "targets": [
+			{"id": "earth", "name_es": "La Tierra", "name_en": "Earth", "az_deg": 200, "el_deg": 38, "drift": 0.35, "hold_s": 3.0, "color": "#5AA0FF",
+				"fact_es": "Distancia media Tierra-Luna: 384.400 km. Desde la Luna, la Tierra casi no se mueve en el cielo, pero muestra fases opuestas a las lunares.",
+				"fact_en": "Average Earth-Moon distance: 384,400 km. From the Moon, Earth barely moves in the sky but shows phases opposite to the Moon's.",
+				"source": "NASA — Moon Fact Sheet (NSSDCA)", "kind": "real"},
+			{"id": "jupiter", "name_es": "Júpiter y sus lunas", "name_en": "Jupiter and its moons", "az_deg": 120, "el_deg": 55, "drift": 0.55, "hold_s": 3.5, "color": "#E8C08A",
+				"fact_es": "Se distinguen las cuatro lunas galileanas (Ío, Europa, Ganímedes y Calisto), descubiertas por Galileo en 1610. Júpiter está a entre 588 y 968 millones de km de la Tierra.",
+				"fact_en": "The four Galilean moons (Io, Europa, Ganymede and Callisto), discovered by Galileo in 1610, are visible. Jupiter lies 588 to 968 million km from Earth.",
+				"source": "NASA — Jupiter Fact Sheet (NSSDCA)", "kind": "real"}
+		]},
+		{"name_key": "COLONY_OBS_DEEPSKY", "targets": [
+			{"id": "m42", "name_es": "Nebulosa de Orión (M42)", "name_en": "Orion Nebula (M42)", "az_deg": 75, "el_deg": 30, "drift": 0.75, "hold_s": 4.5, "color": "#FF7AD9",
+				"fact_es": "Guardería de estrellas a unos 1.344 años luz. Sin atmósfera, desde la Luna no hay centelleo: las imágenes son más nítidas que desde la Tierra.",
+				"fact_en": "A stellar nursery about 1,344 light-years away. With no atmosphere, there is no twinkling on the Moon: images are sharper than from Earth.",
+				"source": "NASA — Messier 42 (Hubble)", "kind": "real"},
+			{"id": "m31", "name_es": "Galaxia de Andrómeda (M31)", "name_en": "Andromeda Galaxy (M31)", "az_deg": 330, "el_deg": 48, "drift": 0.9, "hold_s": 5.0, "color": "#C9B8FF",
+				"fact_es": "La galaxia grande más cercana, a unos 2,5 millones de años luz. La luz que se capta salió de ella hace 2,5 millones de años.",
+				"fact_en": "The nearest large galaxy, about 2.5 million light-years away. The light captured left it 2.5 million years ago.",
+				"source": "NASA — Messier 31 (Hubble)", "kind": "real"}
+		]}
+	]
+}

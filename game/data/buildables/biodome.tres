@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BuildableDef" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/data/buildable_def.gd" id="1_def"]
+[ext_resource type="Script" path="res://systems/colony/modules/biodome.gd" id="2_mod"]
+
+[resource]
+script = ExtResource("1_def")
+role = 5
+cost = Dictionary[StringName, int]({})
+power_kw = -1.5
+storage_kwh = 0.0
+footprint_radius = 12.5
+build_time = 0.1
+priority = 7
+shield_factor = 0.6
+module_script = ExtResource("2_mod")
+sector = &"hydro"
+function_key = "BUILD_BIODOME_FUNCTION"
+id = &"biodome"
+name_key = "BUILD_BIODOME_NAME"
+description_key = "BUILD_BIODOME_DESC"

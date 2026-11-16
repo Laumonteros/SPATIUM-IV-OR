@@ -1,0 +1,611 @@
+{
+ "missions": [
+  {
+   "id": "m1_first_contact",
+   "title": {
+    "es": "Misión 1 · Primer contacto",
+    "en": "Mission 1 · First contact"
+   },
+   "briefing": {
+    "es": "Bienvenida a la superficie lunar. Acá pesás alrededor de 1/6 de lo que pesás en la Tierra: la gravedad es de 1,62 m/s². La colonia ya está instalada y tus dos compañeros, Inés y Tomás, viven en sus monoblocks. Probá caminar, saltar y usar los sistemas del traje antes de alejarte de tu hábitat.",
+    "en": "Welcome to the lunar surface. Here you weigh about 1/6 of what you weigh on Earth: gravity is 1.62 m/s². The colony is already installed and your two crewmates, Inés and Tomás, live in their monoblocks. Try walking, jumping and using your suit systems before moving away from your habitat."
+   },
+   "objectives": [
+    {
+     "type": "distance",
+     "target": 25,
+     "text": {
+      "es": "Alejate 25 m de tu hábitat",
+      "en": "Move 25 m away from your habitat"
+     }
+    },
+    {
+     "type": "action",
+     "action": "jump",
+     "count": 2,
+     "text": {
+      "es": "Saltá con baja gravedad (Espacio)",
+      "en": "Jump in low gravity (Space)"
+     }
+    },
+    {
+     "type": "action",
+     "action": "flashlight",
+     "count": 1,
+     "text": {
+      "es": "Encendé las luces del casco (F)",
+      "en": "Turn on your helmet lights (F)"
+     }
+    },
+    {
+     "type": "action",
+     "action": "scan",
+     "count": 1,
+     "text": {
+      "es": "Usá el escáner de recursos (Q)",
+      "en": "Use the resource scanner (Q)"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "Sin aire, el polvo que levantás cae en parábolas perfectas y no forma nubes. Y los sonidos que oís llegan por vibración a través del traje.",
+    "en": "With no air, the dust you kick up falls in perfect arcs and never forms clouds. And the sounds you hear travel as vibrations through your suit."
+   },
+   "achievement": "first_landing"
+  },
+  {
+   "id": "m2_initial_resources",
+   "title": {
+    "es": "Misión 2 · Recursos iniciales",
+    "en": "Mission 2 · Initial resources"
+   },
+   "briefing": {
+    "es": "Para construir la base necesitamos materiales locales: traer todo desde la Tierra es carísimo. Juntá regolito, roca rica en ilmenita (de ella sale el hierro) y una muestra geológica para estudiar.",
+    "en": "To build the base we need local materials: bringing everything from Earth is extremely expensive. Collect regolith, ilmenite-rich rock (the source of iron) and a geological sample to study."
+   },
+   "objectives": [
+    {
+     "type": "collect",
+     "item": "regolith",
+     "count": 15,
+     "text": {
+      "es": "Recolectá regolito",
+      "en": "Collect regolith"
+     }
+    },
+    {
+     "type": "collect",
+     "item": "iron",
+     "count": 12,
+     "text": {
+      "es": "Recolectá hierro (ilmenita)",
+      "en": "Collect iron (ilmenite)"
+     }
+    },
+    {
+     "type": "collect",
+     "item": "geo_sample",
+     "count": 1,
+     "text": {
+      "es": "Tomá una muestra geológica",
+      "en": "Take a geological sample"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "Usar los recursos del lugar se llama ISRU (In-Situ Resource Utilization). Es clave para que una base lunar sea posible.",
+    "en": "Using local resources is called ISRU (In-Situ Resource Utilization). It is key to making a lunar base possible."
+   },
+   "achievement": "first_sample"
+  },
+  {
+   "id": "m3_first_base",
+   "title": {
+    "es": "Misión 3 · Primera base",
+    "en": "Mission 3 · First base"
+   },
+   "briefing": {
+    "es": "Una misión de carga ya dejó dos paneles solares y un banco de baterías en el sector Energía. Ahora te toca ampliar la base (B). La Luna no tiene atmósfera: la luz del Sol llega sin filtrar, pero con el Sol tan bajo, las lomas y los bordes de cráter proyectan sombras larguísimas. Elegí bien dónde poner los paneles.",
+    "en": "A cargo mission already left two solar panels and a battery bank in the Energy sector. Now it's your turn to expand the base (B). The Moon has no atmosphere: sunlight arrives unfiltered, but with the Sun so low, hills and crater rims cast very long shadows. Choose carefully where to place your panels."
+   },
+   "objectives": [
+    {
+     "type": "build",
+     "structure": "solar_panel",
+     "count": 2,
+     "text": {
+      "es": "Tené 2 paneles solares",
+      "en": "Have 2 solar panels"
+     }
+    },
+    {
+     "type": "build",
+     "structure": "habitat",
+     "count": 1,
+     "text": {
+      "es": "Construí el hábitat",
+      "en": "Build the habitat"
+     }
+    },
+    {
+     "type": "build",
+     "structure": "battery",
+     "count": 2,
+     "text": {
+      "es": "Tené 2 bancos de baterías",
+      "en": "Have 2 battery banks"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "En la mayor parte de la Luna, un día dura unos 29,5 días terrestres: casi 15 días de luz y 15 de noche. Las baterías y la ubicación de la base son vitales.",
+    "en": "On most of the Moon a day lasts about 29.5 Earth days: almost 15 days of light and 15 of night. Batteries and base location are vital."
+   },
+   "achievement": "first_build"
+  },
+  {
+   "id": "m4_survival",
+   "title": {
+    "es": "Misión 4 · Supervivencia",
+    "en": "Mission 4 · Survival"
+   },
+   "briefing": {
+    "es": "Las reservas de la base no van a durar. Los minerales del regolito guardan oxígeno ligado químicamente, y en el fondo de los cráteres que nunca reciben sol puede haber hielo. Producí tu propio oxígeno y agua.",
+    "en": "The base reserves won't last. Regolith minerals hold chemically bound oxygen, and craters that never see sunlight can hold ice. Produce your own oxygen and water."
+   },
+   "objectives": [
+    {
+     "type": "build",
+     "structure": "oxygen_generator",
+     "count": 1,
+     "text": {
+      "es": "Construí un generador de oxígeno",
+      "en": "Build an oxygen generator"
+     }
+    },
+    {
+     "type": "load",
+     "item": "regolith",
+     "count": 5,
+     "text": {
+      "es": "Cargá regolito en el generador (E)",
+      "en": "Load regolith into the generator (E)"
+     }
+    },
+    {
+     "type": "collect",
+     "item": "water_ice",
+     "count": 4,
+     "text": {
+      "es": "Traé hielo del cráter Albor",
+      "en": "Bring ice from Albor crater"
+     }
+    },
+    {
+     "type": "build",
+     "structure": "water_extractor",
+     "count": 1,
+     "text": {
+      "es": "Construí un extractor de agua",
+      "en": "Build a water extractor"
+     }
+    },
+    {
+     "type": "load",
+     "item": "water_ice",
+     "count": 2,
+     "text": {
+      "es": "Cargá hielo en el extractor",
+      "en": "Load ice into the extractor"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "En 2009, la misión LCROSS de NASA impactó el cráter Cabeus, cerca del polo sur, y detectó agua en el material expulsado. El hielo lunar podría abastecer futuras bases.",
+    "en": "In 2009, NASA's LCROSS mission impacted Cabeus crater near the south pole and detected water in the ejected material. Lunar ice could supply future bases."
+   },
+   "achievement": "life_support"
+  },
+  {
+   "id": "m5_research",
+   "title": {
+    "es": "Misión 5 · Investigación",
+    "en": "Mission 5 · Research"
+   },
+   "briefing": {
+    "es": "Los cráteres son ventanas al pasado: cada impacto expone rocas de distintas profundidades. Explorá el cráter Albor y juntá muestras de brecha de impacto alrededor de los cráteres jóvenes.",
+    "en": "Craters are windows into the past: each impact exposes rocks from different depths. Explore Albor crater and collect impact breccia samples around young craters."
+   },
+   "objectives": [
+    {
+     "type": "visit",
+     "zone": "crater_albor",
+     "text": {
+      "es": "Descendé al cráter Albor",
+      "en": "Descend into Albor crater"
+     }
+    },
+    {
+     "type": "action",
+     "action": "scan",
+     "count": 3,
+     "text": {
+      "es": "Escaneá el terreno (3 veces)",
+      "en": "Scan the terrain (3 times)"
+     }
+    },
+    {
+     "type": "collect",
+     "item": "geo_sample",
+     "count": 3,
+     "text": {
+      "es": "Reuní muestras geológicas",
+      "en": "Gather geological samples"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "Entre 1969 y 1972 las misiones Apollo trajeron 382 kg de rocas y suelo lunar. Todavía hoy se siguen estudiando.",
+    "en": "Between 1969 and 1972 the Apollo missions brought back 382 kg of lunar rocks and soil. They are still being studied today."
+   },
+   "achievement": "lunar_explorer"
+  },
+  {
+   "id": "m6_expansion",
+   "title": {
+    "es": "Misión 6 · Expansión",
+    "en": "Mission 6 · Expansion"
+   },
+   "briefing": {
+    "es": "Una base que depende de la Tierra no es sostenible. Ampliá la producción de energía y lográ que la base produzca su propio oxígeno y agua con energía de sobra.",
+    "en": "A base that depends on Earth isn't sustainable. Expand power production and make the base produce its own oxygen and water with energy to spare."
+   },
+   "objectives": [
+    {
+     "type": "build",
+     "structure": "solar_panel",
+     "count": 4,
+     "text": {
+      "es": "Tené 4 paneles solares",
+      "en": "Have 4 solar panels"
+     }
+    },
+    {
+     "type": "self_sufficient",
+     "text": {
+      "es": "Base autosuficiente (energía ≥ consumo, O₂ y agua en producción)",
+      "en": "Self-sufficient base (power ≥ demand, O₂ and water in production)"
+     }
+    },
+    {
+     "type": "oxygen_reserve",
+     "target": 8,
+     "text": {
+      "es": "Reserva de oxígeno de 8 kg",
+      "en": "Oxygen reserve of 8 kg"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "¡Misión cumplida! La base Albor es autosuficiente. La próxima etapa del programa SPATIUM IV es preparar la expedición a Marte.",
+    "en": "Mission accomplished! Albor base is self-sufficient. The next stage of the SPATIUM IV program is preparing the expedition to Mars."
+   },
+   "achievement": "self_sufficient_base"
+  },
+  {
+   "id": "m7_mapping",
+   "title": {
+    "es": "Misión 7 · Mapear la región",
+    "en": "Mission 7 · Map the region"
+   },
+   "briefing": {
+    "es": "Antes de expandirse hay que conocer el terreno. Escaneá distintas zonas y observá con los binoculares: cada roca y cada cuerpo del cielo tiene su ficha. Los puntos que descubras quedan en el mapa (M).",
+    "en": "Before expanding you need to know the terrain. Scan different areas and observe with the binoculars: every rock and sky body has its card. What you discover stays on the map (M)."
+   },
+   "objectives": [
+    {
+     "type": "action",
+     "action": "scan",
+     "count": 5,
+     "text": {
+      "es": "Escaneá 5 veces en zonas distintas (Q)",
+      "en": "Scan 5 times in different areas (Q)"
+     }
+    },
+    {
+     "type": "action",
+     "action": "observe",
+     "count": 3,
+     "text": {
+      "es": "Fijá 3 objetivos con los binoculares",
+      "en": "Lock 3 targets with the binoculars"
+     }
+    },
+    {
+     "type": "action",
+     "action": "open_map",
+     "count": 1,
+     "text": {
+      "es": "Revisá el mapa completo (M)",
+      "en": "Check the full map (M)"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "Desde 2009 el Lunar Reconnaissance Orbiter (LRO) de NASA mapea la Luna con un láser (LOLA) que mide la altura del terreno con precisión de centímetros.",
+    "en": "Since 2009 NASA's Lunar Reconnaissance Orbiter (LRO) has mapped the Moon with a laser (LOLA) that measures terrain height to within centimeters."
+   },
+   "achievement": "cartographer"
+  },
+  {
+   "id": "m8_water",
+   "title": {
+    "es": "Misión 8 · Agua en las sombras",
+    "en": "Mission 8 · Water in the shadows"
+   },
+   "briefing": {
+    "es": "El agua es vida: se bebe, riega los cultivos y, separada por electrólisis, da oxígeno e hidrógeno. En el fondo del cráter Albor nunca llega el sol y ahí se conserva hielo. Llevá luces: es muy oscuro y muy frío.",
+    "en": "Water is life: you drink it, it waters crops and, split by electrolysis, gives oxygen and hydrogen. The sun never reaches the floor of Albor crater, and ice survives there. Bring lights: it is very dark and very cold."
+   },
+   "objectives": [
+    {
+     "type": "visit",
+     "zone": "crater_albor",
+     "text": {
+      "es": "Bajá al cráter Albor",
+      "en": "Go down into Albor crater"
+     }
+    },
+    {
+     "type": "collect",
+     "item": "water_ice",
+     "count": 8,
+     "text": {
+      "es": "Recolectá 8 de hielo de agua",
+      "en": "Collect 8 water ice"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "En 2009 la misión LCROSS de NASA estrelló una etapa de cohete en el cráter Cabeus y detectó agua en la nube de material expulsado: alrededor de 5,6 % de su masa.",
+    "en": "In 2009 NASA's LCROSS mission crashed a rocket stage into Cabeus crater and detected water in the ejected plume: about 5.6 % of its mass."
+   },
+   "achievement": "water_finder"
+  },
+  {
+   "id": "m9_helium3",
+   "title": {
+    "es": "Misión 9 · Helio-3",
+    "en": "Mission 9 · Helium-3"
+   },
+   "briefing": {
+    "es": "El viento solar lleva miles de millones de años dejando helio-3 en el regolito. Es muy escaso (partes por mil millones), pero podría alimentar reactores de fusión del futuro. Buscalo con el escáner: se marca con una estrella dorada.",
+    "en": "The solar wind has been implanting helium-3 in the regolith for billions of years. It is very scarce (parts per billion), but it could fuel future fusion reactors. Find it with the scanner: it is marked with a golden star."
+   },
+   "objectives": [
+    {
+     "type": "collect",
+     "item": "helium_3",
+     "count": 2,
+     "text": {
+      "es": "Recolectá 2 de helio-3",
+      "en": "Collect 2 helium-3"
+     }
+    },
+    {
+     "type": "action",
+     "action": "fusion_cell",
+     "count": 1,
+     "text": {
+      "es": "Fabricá una celda experimental en el Taller",
+      "en": "Fabricate an experimental cell in the Workshop"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "Las muestras de las misiones Apolo confirmaron que el regolito lunar contiene helio-3 traído por el viento solar. La fusión con helio-3 todavía no existe: la celda del juego representa una tecnología futura.",
+    "en": "Apollo samples confirmed that lunar regolith holds helium-3 brought by the solar wind. Helium-3 fusion does not exist yet: the game's cell represents a future technology."
+   },
+   "achievement": "helium_hunter"
+  },
+  {
+   "id": "m10_maintenance",
+   "title": {
+    "es": "Misión 10 · Mantenimiento",
+    "en": "Mission 10 · Maintenance"
+   },
+   "event": "dust",
+   "briefing": {
+    "es": "Una base lunar se rompe todos los días un poco: el polvo se pega a los paneles y los equipos se desgastan. Atendé las alertas de Control de misión y dejá todo funcionando.",
+    "en": "A lunar base breaks down a little every day: dust sticks to the panels and equipment wears out. Answer Mission Control's alerts and keep everything running."
+   },
+   "objectives": [
+    {
+     "type": "action",
+     "action": "clean",
+     "count": 2,
+     "text": {
+      "es": "Limpiá los paneles con polvo (E)",
+      "en": "Clean the dusty panels (E)"
+     }
+    },
+    {
+     "type": "action",
+     "action": "power_panel",
+     "count": 1,
+     "text": {
+      "es": "Revisá el Reparto de energía",
+      "en": "Check the Power budget"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "En las misiones Apolo el polvo lunar rayó visores, trabó cierres y recalentó equipos. Los astronautas de la Estación Espacial dedican muchas horas por semana al mantenimiento.",
+    "en": "During Apollo, lunar dust scratched visors, jammed seals and overheated equipment. Space Station astronauts spend many hours a week on maintenance."
+   },
+   "achievement": "caretaker"
+  },
+  {
+   "id": "m11_storm",
+   "title": {
+    "es": "Misión 11 · Tormenta solar",
+    "en": "Mission 11 · Solar storm"
+   },
+   "event": "flare_forecast",
+   "briefing": {
+    "es": "Los satélites que vigilan el Sol avisan: una región activa gira hacia nosotros. Antes de que llegue la tormenta, reforzá el blindaje del hábitat con sacos de regolito y, cuando suene la alerta, refugiate.",
+    "en": "The satellites watching the Sun warn us: an active region is rotating toward us. Before the storm arrives, reinforce the habitat's shielding with regolith bags and, when the alert sounds, take shelter."
+   },
+   "objectives": [
+    {
+     "type": "upgrade",
+     "id": "regolith_shield_plus",
+     "text": {
+      "es": "Fabricá el blindaje de regolito en el Taller",
+      "en": "Fabricate the regolith shielding in the Workshop"
+     }
+    },
+    {
+     "type": "action",
+     "action": "storm_over",
+     "count": 1,
+     "text": {
+      "es": "Sobreviví a la tormenta de protones",
+      "en": "Survive the proton storm"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "NASA y NOAA vigilan el Sol con satélites como SDO y SOHO. Unos metros de regolito o un tanque de agua alrededor del refugio bloquean gran parte de las partículas.",
+    "en": "NASA and NOAA watch the Sun with satellites such as SDO and SOHO. A few meters of regolith or a water tank around the shelter block much of the particles."
+   },
+   "achievement": "storm_survivor"
+  },
+  {
+   "id": "m12_expansion",
+   "title": {
+    "es": "Misión 12 · Ampliar la base",
+    "en": "Mission 12 · Expand the base"
+   },
+   "briefing": {
+    "es": "Llega más gente desde la Tierra y la colonia tiene que crecer. Fabricá kits en el Taller y ubicalos con el modo construcción (B): más energía guardada y más lugar para vivir.",
+    "en": "More people are coming from Earth and the colony must grow. Fabricate kits in the Workshop and place them in build mode (B): more stored energy and more living space."
+   },
+   "objectives": [
+    {
+     "type": "build",
+     "structure": "battery",
+     "count": 2,
+     "text": {
+      "es": "Tené 2 baterías",
+      "en": "Have 2 batteries"
+     }
+    },
+    {
+     "type": "build",
+     "structure": "habitat",
+     "count": 2,
+     "text": {
+      "es": "Tené 2 hábitats",
+      "en": "Have 2 habitats"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "El concepto Artemis Base Camp de NASA prevé una base cerca del polo sur lunar con hábitat, vehículo presurizado y energía para estadías cada vez más largas.",
+    "en": "NASA's Artemis Base Camp concept envisions a base near the lunar south pole with a habitat, a pressurized rover and power for ever longer stays."
+   },
+   "achievement": "builder"
+  },
+  {
+   "id": "m13_return",
+   "title": {
+    "es": "Misión 13 · Volver a casa",
+    "en": "Mission 13 · Going home"
+   },
+   "briefing": {
+    "es": "Tu turno en la Luna termina. El módulo Ariel puede despegar si se llenan sus tanques: en el Taller, el electrolizador separa el agua del hielo en hidrógeno y oxígeno, el propelente del cohete. Llená los 5 tanques y despegá desde la terminal de suministros.",
+    "en": "Your shift on the Moon is ending. The Ariel module can lift off if its tanks are filled: in the Workshop, the electrolyzer splits ice water into hydrogen and oxygen, the rocket's propellant. Fill the 5 tanks and launch from the supplies terminal."
+   },
+   "objectives": [
+    {
+     "type": "action",
+     "action": "propellant",
+     "count": 5,
+     "text": {
+      "es": "Fabricá 5 tanques de propelente",
+      "en": "Make 5 tanks of propellant"
+     }
+    },
+    {
+     "type": "action",
+     "action": "launch",
+     "count": 1,
+     "text": {
+      "es": "Despegá con el módulo Ariel",
+      "en": "Lift off in the Ariel module"
+     }
+    }
+   ],
+   "debrief": {
+    "es": "Fabricar propelente con hielo lunar (ISRU) es una de las claves para explorar más lejos: cada kilo que no hay que llevar desde la Tierra abarata el viaje a Marte.",
+    "en": "Making propellant from lunar ice (ISRU) is one of the keys to exploring farther: every kilo that does not have to be launched from Earth makes the trip to Mars cheaper."
+   },
+   "achievement": "homecoming"
+  }
+ ],
+ "achievements": {
+  "first_landing": {
+   "es": "Primer aterrizaje",
+   "en": "First landing"
+  },
+  "first_sample": {
+   "es": "Primera muestra",
+   "en": "First sample"
+  },
+  "first_build": {
+   "es": "Primera construcción",
+   "en": "First construction"
+  },
+  "life_support": {
+   "es": "Soporte vital propio",
+   "en": "Own life support"
+  },
+  "lunar_explorer": {
+   "es": "Explorador lunar",
+   "en": "Lunar explorer"
+  },
+  "self_sufficient_base": {
+   "es": "Base autosuficiente",
+   "en": "Self-sufficient base"
+  },
+  "cartographer": {
+   "es": "Cartógrafa lunar",
+   "en": "Lunar cartographer"
+  },
+  "water_finder": {
+   "es": "Agua encontrada",
+   "en": "Water found"
+  },
+  "helium_hunter": {
+   "es": "Cazadora de helio-3",
+   "en": "Helium-3 hunter"
+  },
+  "caretaker": {
+   "es": "Mantenimiento al día",
+   "en": "Up to date maintenance"
+  },
+  "storm_survivor": {
+   "es": "Sobreviviente solar",
+   "en": "Solar storm survivor"
+  },
+  "builder": {
+   "es": "Constructora de bases",
+   "en": "Base builder"
+  },
+  "homecoming": {
+   "es": "Regreso a casa",
+   "en": "Homecoming"
+  }
+ }
+}
